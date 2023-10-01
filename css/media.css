@@ -49,6 +49,41 @@
         margin-top: 251px;
         margin-bottom: 190px;
     }
+    .btn_grid {
+        left: 0;
+        margin-top: 0;
+    }
+    .mod-block h3 {
+        max-width: 463px;
+    }
+    .btn-mod {
+        right: 0;
+        width: 215px;
+        height: 151px;
+        justify-content: flex-start;
+    }
+    .mod-svg{
+        right: 0;
+    }
+    .svg-grid {
+        left: 58px;
+    }
+    .mod-contant>div:nth-child(2) {
+        margin-top: 80px;
+    }
+    .benefits-block h2 {
+        font-size: 118px;
+        margin-bottom: 80px;
+    }
+    .benefits-block h5 {
+        font-size: 35px;
+    }
+    .benefits-block span {
+        top: 10px;
+    }
+    .benefits-block{
+        margin-top: 267px;;
+    }
 }
 
 
@@ -58,6 +93,9 @@
 @media screen and (max-width:1200px){
     ._container {
         max-width: 720px;
+    }
+    ._containerTwo {
+        margin: 0 auto;
     }
     .title-block_main>p {
         font-size: 18px;
@@ -86,6 +124,34 @@
     .sub-header {
         margin-top: 268px;
         margin-bottom: 145px;
+    }
+    .mod-contant>div:nth-child(2) {
+        margin-top: 59px;
+    }
+    .mod-block h3 {
+        font-size: 40px;
+    }
+    .mod-title {
+        margin-bottom: 60px;
+    }
+    .btn-none {
+        display: none;
+    }
+    .mod-block h5 {
+        font-size: 20px;
+    }
+    .benefits-block{
+        margin-top: 205px;;
+    }
+    .benefits-block h5 {
+        font-size: 25px;
+    }
+    .benefits-block span {
+        top: 6px;
+    }
+    .benefits-block h2 {
+        font-size: 88px;
+        margin-bottom: 60px;
     }
 }
 /* ============500-340=================== */
