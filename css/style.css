@@ -870,38 +870,28 @@ table {
     height: 225px;
     left: 70%;
     top: 122px;
-    /* margin-left: -100px; */
-
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    width: 356px;
-    height: 225px;
-    top: 100%;
-    margin-top: -110px;
-    bottom: 11px;
-    right: 0; */
 }
 
-.form-btn button::after {
-    /* content: ''; */
-    /* display: block; */
-    /* position: absolute; */
-    /* left: 116px; */
-    /* width: 216px; */
-    /* height: 225px; */
-    /* background-image: url('../img/arrow-big.svg'); */
-    /* background-repeat: no-repeat; */
-    /* transition: all .3s ease; */
-}
+
 
 /* ====================servis-block================= */
 .servis-block {
     margin-top: 200px;
 }
+.mr-l-auto{
+    margin-left: auto;
+}
 
+.servis_item{
+    max-width: 990px;
+    display: flex;
+    gap: 40px;
+}
+.servis_main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .servis-block h3 {
     display: inline-block;
     max-width: 466px;
@@ -909,46 +899,38 @@ table {
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+    margin-bottom: 100px;
 }
-
-.flex-servis {
+.servis_title{
     position: relative;
-    gap: 0;
-    justify-content: space-between;
 }
-
-.grid-servis {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-    margin-top: 100px;
+.servis_title_l h5{
+    position: absolute;
+    left: 238px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
 }
-
-.grid-servis div {
-    max-width: 475px;
-}
-
-.grid-servis h5 {
+.servis_title_r h5{
+    position: absolute;
+    right: 219px;
     font-size: 45px;
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
 }
 
-.mr-l h5 {
-    margin-left: 305px;
+.servis-info{
+    display: flex;
+    align-items: flex-end;
 }
-
-.mr-r h5 {
-    margin-left: -208px;
-}
-
-.grid-servis p {
+.servis-info p{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
-    /* 24px */
 }
+
 
 /* ============media-block================= */
 .media-block {

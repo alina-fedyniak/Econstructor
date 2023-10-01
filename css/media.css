@@ -131,6 +131,21 @@
     .connect-block p {
         font-size: 18px;
     }
+    .servis-block {
+        margin-top: 170px;
+    }
+    .servis-block h3 {
+        font-size: 60px;
+    }
+    .servis-block h3 {
+        margin-bottom: 80px;
+    }
+    .servis-block h3 {
+        font-size: 60px;
+    }
+    .servis_title_l h5 {
+        font-size: 50px;
+    }
 }
 
 
@@ -247,6 +262,24 @@
     }
     .form-btn {
         left: 34%;
+    }
+    .servis-block {
+        margin-top: 105px;
+    }
+    .servis-block h3 {
+        font-size: 40px;
+    }
+    .servis-block h3 {
+        margin-bottom: 60px;
+    }
+    .servis-block h3 {
+        font-size: 40px;
+    }
+    .servis_item img{
+        max-width: 345px;
+    }
+    .servis_title_l h5 {
+        font-size: 38px;
     }
 }
 /* ============500-340=================== */
