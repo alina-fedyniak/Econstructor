@@ -100,7 +100,7 @@
         font-size: 60px;
         margin-bottom: 80px;
     }
-    .architects-info>p:nth-child(1) {
+    .architects-info>div>p:nth-child(1) {
         font-size: 18px;
     }
     .arch-btn a {
@@ -200,21 +200,25 @@
         font-size: 14px;
     }
     .grid-architects:last-child {
-        margin-top: 290px;
+        margin-top: 88px;
     }
     .grid-architects img{
         max-width: 345px;
     }
-    .grid-architects h2 {
-        bottom: 35px;
-        left: 2px;
-        font-size: 66px;
+
+    .grid-architects h2{
+        bottom: -90px;
+        left: 22px;
+        font-size:60px;
     }
-    .architects-info>p:nth-child(2) {
+    .architects-info>div>p:nth-child(2) {
         margin: 10px 0 10px 0;
     }
     .architects-block {
         margin-top: 145px;
+    }
+    .arch-btn {
+        margin-top: 50px;
     }
 }
 /* ============500-340=================== */

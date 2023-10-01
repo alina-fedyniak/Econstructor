@@ -695,16 +695,18 @@ table {
     margin-left: auto;
     gap: 40px;
 }
+.grid-architects>div {
+    width: 50%;
+}
 
 .grid-architects>div:first-child {
     position: relative;
-    /* display: flex; */
-    /* align-items: flex-start; */
+    height: 100%;
 }
 
 .grid-architects h2 {
     position: absolute;
-    bottom: 0;
+    bottom: 13px;
     left: -291px;
     font-size: 106px;
     font-weight: 600;
@@ -712,18 +714,24 @@ table {
     text-transform: uppercase;
 }
 
-.architects-info>p:nth-child(1) {
+
+.architects-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.architects-info>div>p:nth-child(1) {
     font-size: 20px;
     font-weight: 500;
     line-height: 150%;
 }
 
-.architects-info>p:nth-child(2) {
+.architects-info>div>p:nth-child(2) {
     margin: 40px 0 10px 0;
 }
 
-.architects-info>p:nth-child(2),
-.architects-info li {
+.architects-info>div>p:nth-child(2),
+.architects-info>div li {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
