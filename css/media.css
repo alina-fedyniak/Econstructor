@@ -49,6 +49,71 @@
         margin-top: 251px;
         margin-bottom: 190px;
     }
+    .btn_grid {
+        left: 0;
+        margin-top: 0;
+    }
+    .mod-block h3 {
+        max-width: 463px;
+    }
+    .btn-mod {
+        right: 0;
+        width: 215px;
+        height: 151px;
+        justify-content: flex-start;
+    }
+    .mod-svg{
+        right: 0;
+    }
+    .svg-grid {
+        left: 58px;
+    }
+    .mod-contant>div:nth-child(2) {
+        margin-top: 80px;
+    }
+    .benefits-block h2 {
+        font-size: 118px;
+        margin-bottom: 80px;
+    }
+    .benefits-block h5 {
+        font-size: 35px;
+    }
+    .benefits-block span {
+        top: 10px;
+    }
+    .benefits-block{
+        margin-top: 267px;;
+    }
+    .company-main{
+        margin-top: 80px;
+    }
+    .company-block h3 {
+        font-size: 60px;
+    }
+    .company-block>div>p {
+        font-size: 18px;
+    }
+    .company-info h5 {
+        font-size: 50px;
+    }
+    .architects-block h3 {
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+    .architects-info>p:nth-child(1) {
+        font-size: 18px;
+    }
+    .arch-btn a {
+        font-size: 16px;
+    }
+    .grid-architects:last-child {
+        margin-top: 195px;
+    }
+    .grid-architects h2 {
+        bottom: -123px;
+        left: 30px;
+        font-size: 86px;
+    }
 }
 
 
@@ -58,6 +123,9 @@
 @media screen and (max-width:1200px){
     ._container {
         max-width: 720px;
+    }
+    ._containerTwo {
+        margin: 0 auto;
     }
     .title-block_main>p {
         font-size: 18px;
@@ -86,6 +154,67 @@
     .sub-header {
         margin-top: 268px;
         margin-bottom: 145px;
+    }
+    .mod-contant>div:nth-child(2) {
+        margin-top: 59px;
+    }
+    .mod-block h3 {
+        font-size: 40px;
+    }
+    .mod-title {
+        margin-bottom: 60px;
+    }
+    .btn-none {
+        display: none;
+    }
+    .mod-block h5 {
+        font-size: 20px;
+    }
+    .benefits-block{
+        margin-top: 205px;;
+    }
+    .benefits-block h5 {
+        font-size: 25px;
+    }
+    .benefits-block span {
+        top: 6px;
+    }
+    .benefits-block h2 {
+        font-size: 88px;
+        margin-bottom: 60px;
+    }
+    .company-block h3 {
+        font-size: 40px;
+    }
+    .company-block>div>p {
+        font-size: 16px;
+    }
+    .company-info h5 {
+        font-size: 38px;
+    }
+    .architects-block h3 {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    .arch-btn a {
+        font-size: 14px;
+    }
+    .grid-architects:last-child {
+        margin-top: 290px;
+    }
+    .grid-architects img{
+        max-width: 345px;
+    }
+    .grid-architects h2 {
+        bottom: 35px;
+        left: 2px;
+        font-size: 66px;
+    }
+    .architects-info>p:nth-child(2) {
+        margin: 10px 0 10px 0;
+    }
+    .architects-block {
+        margin-top: 145px;
     }
 }
 /* ============500-340=================== */
