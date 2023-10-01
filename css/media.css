@@ -72,8 +72,10 @@
         margin-top: 80px;
     }
     .benefits-block h2 {
-        font-size: 118px;
         margin-bottom: 80px;
+    }
+    .parallax-text {
+        font-size: 118px;
     }
     .benefits-block h5 {
         font-size: 35px;
@@ -113,6 +115,21 @@
         bottom: -123px;
         left: 30px;
         font-size: 86px;
+    }
+    .form-btn {
+        left: 45%;
+    }
+    .architects-block {
+        margin-bottom: 270px;
+    }
+    .connect-block h2 {
+        margin-bottom: 80px;
+    }
+    .grid-connect {
+        grid-template-columns: 1fr 1fr;
+    }
+    .connect-block p {
+        font-size: 18px;
     }
 }
 
@@ -180,8 +197,10 @@
         top: 6px;
     }
     .benefits-block h2 {
-        font-size: 88px;
         margin-bottom: 60px;
+    }
+    .parallax-text {
+        font-size: 88px;
     }
     .company-block h3 {
         font-size: 40px;
@@ -219,6 +238,15 @@
     }
     .arch-btn {
         margin-top: 50px;
+    }
+    .architects-block {
+        margin-bottom: 205px;
+    }
+    .connect-block h2 {
+        margin-bottom: 60px;
+    }
+    .form-btn {
+        left: 34%;
     }
 }
 /* ============500-340=================== */
