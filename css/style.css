@@ -330,7 +330,7 @@ table {
 
 
 .svg-btn path:first-child {
-    filter: drop-shadow(0px 2px 7px rgb(134, 14, 14));
+    /* filter: drop-shadow(0px 2px 7px rgb(134, 14, 14)); */
 }
 .main{
     margin-top: 285px;
@@ -574,7 +574,7 @@ table {
 }
 .benefits-block h2 {
     display: inline-block;
-    font-size: 193px;
+    /* font-size: 193px; */
     font-weight: 600;
     line-height: 100%;
     text-transform: uppercase;
@@ -603,7 +603,7 @@ table {
     background-attachment: fixed;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
+    font-size: 193px;
 }
 
 
@@ -695,16 +695,18 @@ table {
     margin-left: auto;
     gap: 40px;
 }
+.grid-architects>div {
+    width: 50%;
+}
 
 .grid-architects>div:first-child {
     position: relative;
-    /* display: flex; */
-    /* align-items: flex-start; */
+    height: 100%;
 }
 
 .grid-architects h2 {
     position: absolute;
-    bottom: 0;
+    bottom: 13px;
     left: -291px;
     font-size: 106px;
     font-weight: 600;
@@ -712,18 +714,24 @@ table {
     text-transform: uppercase;
 }
 
-.architects-info>p:nth-child(1) {
+
+.architects-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.architects-info>div>p:nth-child(1) {
     font-size: 20px;
     font-weight: 500;
     line-height: 150%;
 }
 
-.architects-info>p:nth-child(2) {
+.architects-info>div>p:nth-child(2) {
     margin: 40px 0 10px 0;
 }
 
-.architects-info>p:nth-child(2),
-.architects-info li {
+.architects-info>div>p:nth-child(2),
+.architects-info>div li {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -801,7 +809,7 @@ table {
     margin-top: 100px;
 }
 
-/* ===================benefits-block=============== */
+/* ===================connect-block=============== */
 .connect-block {
     position: relative;
     margin-bottom: 100px;
@@ -809,7 +817,7 @@ table {
 
 .connect-block h2 {
     display: inline-block;
-    font-size: 190px;
+    /* font-size: 190px; */
     font-weight: 600;
     line-height: 100%;
     text-transform: uppercase;
@@ -831,14 +839,14 @@ table {
     line-height: 150%;
     text-transform: uppercase;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 356px;
     height: 225px;
 }
 
 .grid-connect {
     display: grid;
-    grid-template-columns: 500px 775px 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .connect-form {
@@ -860,27 +868,30 @@ table {
     position: relative;
     width: 356px;
     height: 225px;
-    right: -100%;
-    margin-left: -100px;
+    left: 70%;
+    top: 122px;
 }
 
-.form-btn button::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 116px;
-    width: 216px;
-    height: 225px;
-    background-image: url('../img/arrow-big.svg');
-    background-repeat: no-repeat;
-    transition: all .3s ease;
-}
+
 
 /* ====================servis-block================= */
 .servis-block {
     margin-top: 200px;
 }
+.mr-l-auto{
+    margin-left: auto;
+}
 
+.servis_item{
+    max-width: 990px;
+    display: flex;
+    gap: 40px;
+}
+.servis_main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .servis-block h3 {
     display: inline-block;
     max-width: 466px;
@@ -888,46 +899,38 @@ table {
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+    margin-bottom: 100px;
 }
-
-.flex-servis {
+.servis_title{
     position: relative;
-    gap: 0;
-    justify-content: space-between;
 }
-
-.grid-servis {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-    margin-top: 100px;
+.servis_title_l h5{
+    position: absolute;
+    left: 238px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
 }
-
-.grid-servis div {
-    max-width: 475px;
-}
-
-.grid-servis h5 {
+.servis_title_r h5{
+    position: absolute;
+    right: 219px;
     font-size: 45px;
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
 }
 
-.mr-l h5 {
-    margin-left: 305px;
+.servis-info{
+    display: flex;
+    align-items: flex-end;
 }
-
-.mr-r h5 {
-    margin-left: -208px;
-}
-
-.grid-servis p {
+.servis-info p{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
-    /* 24px */
 }
+
 
 /* ============media-block================= */
 .media-block {
@@ -940,6 +943,9 @@ table {
     line-height: 130%;
     text-transform: uppercase;
 }
+.media-block div{
+    margin-top: 100px;
+}
 
 ._video {
     width: 1505px;
@@ -951,7 +957,6 @@ table {
 
 .question-block {
     margin-top: 200px;
-    /* margin-bottom: 200px; */
 }
 
 .question-block h3 {
@@ -963,8 +968,8 @@ table {
 }
 
 .question-accordion {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 2fr; */ 
 }
 
 /* ----------------accordion------------------- */
@@ -973,6 +978,7 @@ table {
     position: relative;
     max-width: 990px;
     overflow: hidden;
+    margin-left: auto;
 }
 
 .title-accordion {
@@ -998,12 +1004,15 @@ label {
 }
 label p{
     max-width: 775px;
+    display: inline-flex;
 }
 label span{
     font-size: 16px;
     font-weight: 700;
     line-height: 100%; /* 16px */
     text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 
 .tab-content {
@@ -1073,9 +1082,20 @@ label:hover::after{
 /* =========footer============== */
 /* .footer{
     position: relative;
-    margin-top: 324px;
+    margin-top: 300px;
     padding-bottom: 59px;
 }
+.post_foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.footer-main{
+
+    margin-top: 119px;
+} */
+/* 
 .footer-title{
     text-align: center;
 }
@@ -1092,12 +1112,7 @@ label:hover::after{
     line-height: 130%;
     text-transform: uppercase;
 }
-.footer-main{
-    display: grid;
-    grid-template-columns: 33% 33%;
-    justify-content: end;
-    margin-top: 119px;
-}
+
 .footer-main>div:first-child p{
     font-size: 20px;
     font-weight: 500;
@@ -1127,12 +1142,7 @@ label:hover::after{
     border-radius: 50%;
 }
 
-.post_foot{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
+
 
 .foot-btn {
     position: relative;
@@ -1237,7 +1247,7 @@ label:hover::after{
 
 .footer{
     position: relative;
-    margin-top: 324px;
+    margin-top: 300px;
     padding-bottom: 59px;
 }
 .footer-title{
@@ -1259,14 +1269,38 @@ label:hover::after{
 .footer-main{
     display: flex;
     max-width: 990px;
-    /* display: grid; */
-    /* grid-template-columns: 33% 33%; */
-    /* justify-content: end; */
     margin-top: 119px;
+    margin-left: auto;
+}
+.post_foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    /* width: 585px; */
 }
 
-
-
+.post_foot_mob{
+    display: none;
+    position: absolute;
+    /* width: 100%; */
+    /* height: 786px; */
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.footer_img::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+        transform: rotate(45deg);
+}
 
 .footer-main>div:first-child p{
     font-size: 20px;
@@ -1274,35 +1308,47 @@ label:hover::after{
     line-height: 150%;
     text-transform: uppercase;
 }
-/* .foot-logo{
+.foot-logo{
     width: 103px;
     height: 65px;
-} */
-/* .foot_tel{
+}
+.foot_tel{
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin: 40px 0;
-} */
+}
 
-/* .footer-soc{
+.footer-soc{
     display: flex;
     gap: 30px;
     margin-top: 40px;
-} */
-/* .footer-soc img{
+}
+.footer-soc img{
     display: inline-block;
     padding: 14px;
     border: 1px solid var(--text-color);
     border-radius: 50%;
-} */
-
-/* .post_foot{
+}
+.svg-foot{
+    right: 0;
+}
+.btn-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 435px;
+    height: 221px;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-} */
+    right: 0;
+    /* top: 199px; */
+}
+.svg-btn_foot {
+    position: absolute;
+    top: -98px;
+    /* left: 135px; */
+    /* transition: all .3s ease; */
+}
 
 /* .foot-btn {
     position: relative;
@@ -1406,9 +1452,9 @@ label:hover::after{
 /* ======new=========== */
 .footer-flex{
 
-    display: flex;
-    justify-content: space-between;
-    max-width: 990px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* max-width: 990px; */
 }
 
 
