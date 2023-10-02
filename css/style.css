@@ -943,6 +943,9 @@ table {
     line-height: 130%;
     text-transform: uppercase;
 }
+.media-block div{
+    margin-top: 100px;
+}
 
 ._video {
     width: 1505px;
@@ -954,7 +957,6 @@ table {
 
 .question-block {
     margin-top: 200px;
-    /* margin-bottom: 200px; */
 }
 
 .question-block h3 {
@@ -966,8 +968,8 @@ table {
 }
 
 .question-accordion {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 2fr; */ 
 }
 
 /* ----------------accordion------------------- */
@@ -976,6 +978,7 @@ table {
     position: relative;
     max-width: 990px;
     overflow: hidden;
+    margin-left: auto;
 }
 
 .title-accordion {
@@ -1001,12 +1004,15 @@ label {
 }
 label p{
     max-width: 775px;
+    display: inline-flex;
 }
 label span{
     font-size: 16px;
     font-weight: 700;
     line-height: 100%; /* 16px */
     text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 
 .tab-content {
@@ -1076,9 +1082,20 @@ label:hover::after{
 /* =========footer============== */
 /* .footer{
     position: relative;
-    margin-top: 324px;
+    margin-top: 300px;
     padding-bottom: 59px;
 }
+.post_foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.footer-main{
+
+    margin-top: 119px;
+} */
+/* 
 .footer-title{
     text-align: center;
 }
@@ -1095,12 +1112,7 @@ label:hover::after{
     line-height: 130%;
     text-transform: uppercase;
 }
-.footer-main{
-    display: grid;
-    grid-template-columns: 33% 33%;
-    justify-content: end;
-    margin-top: 119px;
-}
+
 .footer-main>div:first-child p{
     font-size: 20px;
     font-weight: 500;
@@ -1130,12 +1142,7 @@ label:hover::after{
     border-radius: 50%;
 }
 
-.post_foot{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
+
 
 .foot-btn {
     position: relative;
@@ -1240,7 +1247,7 @@ label:hover::after{
 
 .footer{
     position: relative;
-    margin-top: 324px;
+    margin-top: 300px;
     padding-bottom: 59px;
 }
 .footer-title{
@@ -1262,14 +1269,38 @@ label:hover::after{
 .footer-main{
     display: flex;
     max-width: 990px;
-    /* display: grid; */
-    /* grid-template-columns: 33% 33%; */
-    /* justify-content: end; */
     margin-top: 119px;
+    margin-left: auto;
+}
+.post_foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    /* width: 585px; */
 }
 
-
-
+.post_foot_mob{
+    display: none;
+    position: absolute;
+    /* width: 100%; */
+    /* height: 786px; */
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.footer_img::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+        transform: rotate(45deg);
+}
 
 .footer-main>div:first-child p{
     font-size: 20px;
@@ -1277,35 +1308,47 @@ label:hover::after{
     line-height: 150%;
     text-transform: uppercase;
 }
-/* .foot-logo{
+.foot-logo{
     width: 103px;
     height: 65px;
-} */
-/* .foot_tel{
+}
+.foot_tel{
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin: 40px 0;
-} */
+}
 
-/* .footer-soc{
+.footer-soc{
     display: flex;
     gap: 30px;
     margin-top: 40px;
-} */
-/* .footer-soc img{
+}
+.footer-soc img{
     display: inline-block;
     padding: 14px;
     border: 1px solid var(--text-color);
     border-radius: 50%;
-} */
-
-/* .post_foot{
+}
+.svg-foot{
+    right: 0;
+}
+.btn-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 435px;
+    height: 221px;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-} */
+    right: 0;
+    /* top: 199px; */
+}
+.svg-btn_foot {
+    position: absolute;
+    top: -98px;
+    /* left: 135px; */
+    /* transition: all .3s ease; */
+}
 
 /* .foot-btn {
     position: relative;
@@ -1409,9 +1452,9 @@ label:hover::after{
 /* ======new=========== */
 .footer-flex{
 
-    display: flex;
-    justify-content: space-between;
-    max-width: 990px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* max-width: 990px; */
 }
 
 
