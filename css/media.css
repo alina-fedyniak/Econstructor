@@ -199,6 +199,9 @@
     .footer_menu {
         max-width: 645px;
     }
+    .catalog_btn p{
+        left: -150px;
+    }
 }
 
 
@@ -398,6 +401,9 @@
     }
     .burger-menu{
         display: block;
+    }
+    .catalog_btn p {
+        left: -120px;
     }
 }
 /* ============740-340=================== */
@@ -626,5 +632,18 @@
     .pop_svg {
         width: 129px;
         height: 135px;
+    }
+    ._container {
+        max-width: 100%;
+        padding: 0 80px;
+    }
+    .catalog_mode {
+        flex-direction: row;
+    }
+    .catalog_mode>div:nth-child(2) {
+        margin-top: 0;
+    }
+    .catalog_block{
+        display: flex;
     }
 }
