@@ -1,0 +1,45 @@
+.header-title-blk {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 470px;
+}
+
+.title-block h1 {
+    display: inline-block;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 15px;
+    max-width: 691px;
+}
+
+.main-wrap{
+    margin-top: 455px;
+}
+
+/*socProject-wrap*/
+.socProject-wrap {
+    display: flex;
+    text-align: end;
+    margin: 200px 0 200px 0;
+}
+
+.socProject-text {
+    display: flex;
+}
+
+/*map*/
+.map-wrap {
+    display: flex;
+    align-items: center;
+}
+
+/*sub-header*/
+.sub-header div {
+    display: inline-block;
+    max-width: 612px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 130%;
+}
