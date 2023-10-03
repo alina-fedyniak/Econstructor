@@ -252,7 +252,7 @@
     .btn-none {
         display: none;
     }
-    .mod-block h5 {
+    .grid-flex h5 {
         font-size: 20px;
     }
     .benefits-block{
@@ -400,10 +400,10 @@
         display: block;
     }
 }
-/* ============500-340=================== */
+/* ============740-340=================== */
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:740px){
     ._container {
         max-width: 340px;
     }
@@ -414,5 +414,217 @@
         font-size: 50px;
         margin-top: 10px;
     }
+    .header_img {
+        top: -50px;
+        left: -100%;
+        transform: scale(.9);
+    }
+    .header_img img {
+        max-width: initial;
+    }
+    .sub-header {
+        margin-top: 188px;
+        margin-bottom: 162px;
+    }
+    .mod-block h3 {
+        font-size: 35px;
+    }
+    .mod-title {
+        margin-bottom: 45px;
+    }
+    .mod-contant {
+        flex-direction: column;
+    }
+    .mod-block h6 {
+        font-size: 16px;
+    }
+    .mod-block p {
+        font-size: 14px;
+    }
+    .mod-block a {
+        font-size: 14px;
+    }
+    .mod-contant>div:nth-child(2) {
+        margin-top: 45px;
+    }
+    .grid-block {
+        grid-template-columns: 1fr;
+        grid-gap: 45px;
+    }
+    .grid-block p {
+        font-size: 14px;
+    }
+    .parallax-text {
+        font-size: 44px;
+    }
+    .benefits-block {
+        margin-top: 168px;
+    }
+    .benefits-block h2 {
+        margin-bottom: 45px;
+    }
+    .benefits__main {
+        gap: 20px;
+    }
+    .grid_mar_top {
+        margin-top: 0;
+    }
+    .company-block {
+        margin-top: 175px;
+    }
+    .company-block>div>p {
+        margin-top: 45px;
+    }
+    .company-block h3 {
+        font-size: 35px;
+    }
+    .company-block>div>p {
+        font-size: 14px;
+    }
+    .company-main {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .company-main img {
+        width: 340px;
+        height: 267px;
+    }
+    .company-main>div {
+        margin-bottom: 20px;
+    }
+    .company-info h5 {
+        font-size: 30px;
+    }
+    .company-info p {
+        font-size: 14px;
+    }.company-info {
+        gap: 20px;
+    }
+    .architects-block {
+        margin-bottom: 130px;
+    }
+    .architects-block h3 {
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+    .grid-architects {
+        flex-direction: column;
+        gap: 129px;
+    }
+    .grid-architects>div {
+        width: 100%;
+    }
+    .architects-info>div>p:nth-child(1) {
+        font-size: 16px;
+        margin-bottom: 45px;
+    }
+    .architects-info>div>p:nth-child(2), .architects-info>div li {
+        font-size: 14px;
+    }
+    .architects-info li::before {
+        width: 20px;
+    }
+    .arch-btn {
+        margin-top: 20px;
+    }
+    .connect-block h2 {
+        margin-bottom: 18px;
+    }
+    .grid-connect {
+        grid-template-columns: 1fr;
+    }
+    .connect-block p {
+        font-size: 14px;
+    }
+    .connect-form {
+        margin-top: 45px;
+        gap: 20px;
+    }.media-block h3 {
+        font-size: 30px;
+    }
+    .media-block div {
+        margin-top: 45px;
+        width: 340px;
+        height: 193px;
+    }
+    .question-block {
+        margin-top: 130px;
+    }
+    .question-block h3 {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+    label p {
+        font-size: 25px;
+        width: 266px;
+    }
+    label {
+        padding: 0 20px;
+    }
+    input:checked~.tab-content {
+        padding: 90px 40px 90px 40px;
+    }
+    .footer-title h3, .footer-title h4 {
+        font-size: 30px;
+        width: 309px;
+        text-align: left;
+    }
+    .footer-title>h3 {
+        margin-left: 0px;
+    }
+    .footer-title>h4 {
+        margin-left: 75px;
+    }
+    .servis_main{
+        display: none;
+    }
+    .servis_main_mob{
+        display: flex;
+        overflow-x: scroll;
+        width: 600px;
+        gap: 20px;
+    }
+    .servis_item {
+        flex-direction: column;
+    }
+    .servis_title_l h5 {
+        position: unset;
+    }
+    .servis_title_r h5 {
+        position: unset;
+    }
+    .servis_title_l h5,
+    .servis_title_r h5 {
+        font-size: 30px;
+    }
+    .servis-info p {
+        font-size: 14px;
+    }
+    .booter_logo img {
+        width: 340px;
+    }
+    .pop_up {
+        width: 320px;
+        height: 450px;
+    }
+    .pop_up_main p {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .pop_up_main {
 
+        padding: 60px 16px 20px;
+    }
+    .pop_up_main input {
+        width: 248px;
+    }
+    .boorger_btm {
+        margin-top: 0;
+    }
+    .pop_svg {
+        width: 129px;
+        height: 135px;
+    }
 }
