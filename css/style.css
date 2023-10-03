@@ -176,7 +176,9 @@ table {
     position: relative;
 }
 
-
+._container_catalog{
+    max-width: 100% !important;
+}
 /* =============header================ */
 
 .header-main {
@@ -1438,4 +1440,34 @@ label:hover::after{
 .servis_main_mob{
     display: none;
 }
+
+
+
+/* ===================catalog-page============ */
+
+.catalog_block{
+    flex-direction: column;
+    margin-top: 300px;
+}
+.catalog_mode{
+    margin-left: auto;
+}
+
+.catalog_btn{
+    /* margin-top: -150px; */
+}
+.catalog_btn p{
+    position: absolute;
+    left: -198px;
+}
+
+
+
+
+
+
+
+
+
+
 
