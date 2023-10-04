@@ -1444,27 +1444,76 @@ label:hover::after{
 
 
 /* ===================catalog-page============ */
-
-.catalog_block{
+.catalog_filter{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
     flex-direction: column;
+}
+.catalog_filter p{
+    display: inline-block;
+    max-width: 475px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 100px;
+}
+.catalog_block{
+    display: flex;
     margin-top: 300px;
+    gap: 40px;
 }
 .catalog_mode{
+    display: flex;
+    gap: 40px;
     margin-left: auto;
+    max-width: 100%;
+}
+.catalog_mode>div{
+    max-width: 475px;
 }
 
-.catalog_btn{
-    /* margin-top: -150px; */
-}
 .catalog_btn p{
     position: absolute;
     left: -198px;
 }
 
+.filter_wrap{
+    display: flex;
+    justify-content: space-around;
+    max-width: 475px;
+    height: 70px;
+    border-radius: 60px;
+    border: 3px solid var(--white, #FFF);
+    padding: 7px;
+    box-sizing: border-box;
+}
+.filter_wrap button{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    transition: all .5s ease;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.filter_wrap button:hover{
+    color: var(--text-color);
+    border: 1px solid white;
+    border-radius: 60px;
+}
 
 
-
-
+.filter_wrap button.active {
+    border: 1px solid white; 
+    border-radius: 60px;
+    color: var(--text-color);
+}
 
 /* =================contact====================== */
 
@@ -1481,9 +1530,6 @@ label:hover::after{
     text-transform: uppercase;
 }
 
-.contact_form{
-    
-}
 .contact_form h4{
     font-size: 40px;
     font-weight: 600;
