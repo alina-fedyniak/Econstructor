@@ -124,6 +124,7 @@ a {
     list-style: none;
     text-decoration: none;
     color: inherit;
+    font-family: 'Montserrat', sans-serif;
 }
 
 blockquote,
@@ -309,6 +310,7 @@ table {
     font-weight: 500;
     line-height: 150%;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .svg-btn {
