@@ -1464,6 +1464,9 @@ label:hover::after{
 
 
 /* ===================catalog-page============ */
+.catalog_mr{
+    margin-top: 480px;
+}
 .catalog_filter{
     margin-top: 100px;
     position: relative;

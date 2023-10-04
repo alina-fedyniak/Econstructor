@@ -237,6 +237,9 @@
     .filter_wrap button {
         font-size: 18px;
     }
+    .catalog_mr {
+        margin-top: 420px;
+    }
 }
 
 
@@ -796,6 +799,12 @@
     .footer_menu {
         margin-top: 45px;
         margin-bottom: 50px;
+    }
+    .catalog_mr {
+        margin-top: 560px;
+    }
+    .grid-flex {
+        margin-bottom: 45px;
     }
 }
 
