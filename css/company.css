@@ -122,6 +122,34 @@
     margin-top: 10px;
 }
 
+svg, svg * {
+    z-index: 100;
+}
+
+path:hover {
+    fill: black;
+}
+
+/*.stroke {*/
+/*    stroke-width: 8px;*/
+/*}*/
+
+/*#Frame_9417 {*/
+/*    display: none;*/
+/*}*/
+
+#Frame_9417:hover {
+    display: block;
+}
+
+#Group_26 + #Frame_9417 {
+    display: none;
+}
+
+#Group_26:hover + #Frame_9417 {
+    display: block;
+}
+
 /*sub-header*/
 .sub-header {
     display: flex;
