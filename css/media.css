@@ -806,6 +806,12 @@
     .grid-flex {
         margin-bottom: 45px;
     }
+    .catalog_mode p{
+        -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
 }
 
 
