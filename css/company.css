@@ -99,3 +99,39 @@
     line-height: 130%;
     text-transform: uppercase;
 }
+
+.socProject-blk-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: -30px 0 40px 40px;
+}
+
+.socProject-text div:first-child p:first-child {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 475px;
+    margin-bottom: 38px;
+}
+
+.socProject-text div {
+    width: 475px;
+    margin-right: 40px;
+}
+
+.socProject-text div:last-child  {
+    width: 475px;
+}
+
+.socProject-text div:last-child a {
+   margin-left: 350px;
+    margin-top: 30px;
+}
+
+.socProject-text div:last-child p {
+   margin-bottom: 10px;
+}
