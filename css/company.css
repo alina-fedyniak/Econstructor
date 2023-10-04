@@ -36,10 +36,54 @@
 }
 
 /*sub-header*/
+.sub-header {
+    display: flex;
+}
+
+.sub-header p {
+    margin: 150px 0 0 65px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
 .sub-header div {
     display: inline-block;
     max-width: 612px;
     font-size: 52px;
     font-weight: 600;
     line-height: 130%;
+}
+
+.company-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    max-width: 718px;
+}
+
+.company-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 573px;
+}
+
+.company-block {
+    display: flex;
+}
+
+.company-main-blk {
+   display: flex;
+}
+
+.company-main-blk .company-info {
+    margin-right: 221px;
+    width: 336px;
 }

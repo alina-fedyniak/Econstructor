@@ -48,6 +48,11 @@
     .sub-header {
         margin-top: 251px;
         margin-bottom: 190px;
+        flex-wrap: wrap;
+    }
+
+    .sub-header p{
+        margin: 80px 0 0 0;
     }
     .btn_grid {
         left: 0;
