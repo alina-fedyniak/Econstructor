@@ -1224,6 +1224,11 @@ label:hover::after{
     transition: top 1s ease;
 }
 
+
+/* ---------footer-mob--------------- */
+
+
+
 /* ============burger-menu======== */
 .burger-menu{
     display: none;

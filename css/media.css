@@ -741,6 +741,9 @@
     .filter_wrap button {
         font-size: 14px;
     }
+    .footer_desk{
+        display: none;
+    }
 }
 
 
