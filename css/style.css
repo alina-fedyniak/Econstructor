@@ -1466,8 +1466,64 @@ label:hover::after{
 
 
 
+/* =================contact====================== */
 
+.contact_title_block{
+    position: relative;
+    
+}
+.contact_title_block h1{
+    display: inline-block;
+    max-width: 328px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 130%; 
+    text-transform: uppercase;
+}
 
+.contact_form{
+    
+}
+.contact_form h4{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 140%; 
+}
 
+.contact_soc {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.contact_soc img{
+    width: 25px;
+    height: 25px;
+    padding: 13px 14px;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+}
 
-
+.contact_tel{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact_tel>div{
+    display: flex;
+    flex-direction: column;
+}
+.contact_address p{
+    text-transform: uppercase;
+}
+.contact_tel>div p{
+    margin-bottom: 20px;
+}
+.contact_tel a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.map-block img{
+    max-width: 100%;
+}
