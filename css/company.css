@@ -21,8 +21,12 @@
 /*socProject-wrap*/
 .socProject-wrap {
     display: flex;
-    text-align: end;
+    /*text-align: end;*/
     margin: 200px 0 200px 0;
+}
+
+.socProject-blk {
+    margin-left: 260px;
 }
 
 .socProject-text {
@@ -84,6 +88,14 @@
 }
 
 .company-main-blk .company-info {
-    margin-right: 221px;
-    width: 336px;
+    width: 475px;
+}
+
+/*socProject*/
+.socProject-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
 }
