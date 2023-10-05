@@ -462,6 +462,9 @@
     .mod-contant img {
         /* max-width: 340px; */
     }
+    .servis_title_r h5 {
+        font-size: 38px;
+    }
 }
 /* ============740-340=================== */
 
@@ -812,6 +815,9 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     }
+    input[type=checkbox]:checked+label{
+        height: 180px;
+    }
 }
 
 
@@ -826,7 +832,81 @@
     .footer-title>h4 {
         margin-left: 75px;
     }
+    .menu-content ul {
+        gap: 15px;
+    }
+    .menu-content li {
+        font-size: 20px;
+    }
+    .boorger_btm {
+        margin-top: 12px;
+    }
+}
+@media screen and (max-width:500px){
+    .mod-title {
+        margin-bottom: 60px;
+    }
+    label p {
+        font-size: 19px;
+        width: 210px;
+    }
+    label {
+        padding: 0 5px;
+    }
+    input:checked~.tab-content {
+        padding: 90px 10px 90px 10px;
+    }
+    input:checked~.tab-content {
+        height: 230px;
+        overflow-y: scroll;
+    }
+    ._container {
+        padding: 0 25px;
+    }
+    .header_img img {
+        max-width: initial;
+        margin-left: -420px;
+    }
+    .lang li {
+        font-size: 10px;
+    }
+    .lang li {
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid var(--text-color);
+        padding: 12px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    input:checked~.tab-content {
+        padding: 56px 10px 90px 10px;
+    }
+    .map-block {
+        padding: 0px 25px;
+    }
 }
 @media screen and (max-width:400px){
-
+    label p {
+        font-size: 14px;
+        width: 145px;
+    }
+    label::after, label::before {
+        right: 10px;
+    }
+    .btn-foot {
+        width: 300px;
+    }
+    .grid-architects img {
+        max-width: 290px;
+    }
+    .grid-architects h2 {
+        left: 0px;
+    }
+    .catalog_btn p {
+        left: -4px;
+        max-width: 100px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
 }

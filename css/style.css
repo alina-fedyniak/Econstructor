@@ -1029,8 +1029,8 @@ label span{
 }
 
 input:checked~.tab-content {
-    height: 200px;
-    padding: 10px 40px 70px 40px;
+    height: 185px;
+    padding: 10px 40px 40px 40px;
 }
 
 label::after,
@@ -1053,6 +1053,7 @@ label::after {
 }
 
 input[type=checkbox]:checked+label{
+    height: 140px;
     background-color: var(--text-color);
     color: var(--wrap-color);
 }
