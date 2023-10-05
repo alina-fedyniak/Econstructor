@@ -1,0 +1,256 @@
+.header-title-blk {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 470px;
+}
+
+.title-block h1 {
+    display: inline-block;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 15px;
+    max-width: 691px;
+}
+
+.main-wrap{
+    margin-top: 455px;
+}
+
+/*socProject-wrap*/
+.socProject-wrap {
+    display: flex;
+    margin: 200px 0 200px 0;
+}
+
+.socProject-blk {
+    /*margin-left: 260px;*/
+}
+
+.socProject-text {
+    display: flex;
+}
+
+.socProject-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.socProject-blk-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: -30px 0 40px 40px;
+}
+
+.socProject-text div:first-child p:first-child {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 475px;
+    margin-bottom: 38px;
+}
+
+.socProject-text div {
+    max-width: 475px;
+    margin-right: 40px;
+    line-height: 150%;
+}
+
+.socProject-text div:last-child  {
+    max-width: 475px;
+}
+
+.socProject-text div:last-child a {
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.socProject-text div:last-child p {
+    margin-bottom: 10px;
+}
+
+/*map*/
+.map-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.map-wrapper {
+    display: flex;
+}
+
+.map-title {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    max-width: 569px;
+    margin-bottom: 42px;
+}
+
+.map-text-blk {
+    margin-left: 40px;
+}
+
+.map-text-blk p {
+    max-width: 475px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.map-text-blk ul {
+    margin-top: 40px;
+}
+
+.map-text-blk li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
+/*----------maps---------------*/
+svg, svg * {
+    z-index: 100;
+}
+
+path:hover {
+    fill: black;
+    cursor: pointer;
+}
+
+/*yablunivka*/
+#Yablunivka:hover {
+    display: block;
+}
+
+#Yablunivka {
+    z-index: 111;
+}
+
+#Group_26 ~ #Yablunivka {
+    display: none;
+}
+
+#Group_26:hover ~ #Yablunivka {
+    display: block;
+}
+
+/**/
+#Frame_9425:hover {
+    display: block;
+}
+
+#Frame_9425 {
+   z-index: 111;
+}
+
+#Group_24 ~ #Frame_9425 {
+    display: none;
+}
+
+#Group_24:hover ~ #Frame_9425 {
+    display: block;
+}
+
+/**/
+#ivano-region:hover {
+    display: block;
+}
+
+#ivano-region {
+    z-index: 111;
+}
+
+#ivano-region ~ .bukovel {
+    display: none;
+}
+
+#ivano-region:hover ~ .bukovel {
+    display: block;
+}
+
+/**/
+#Odesa_region:hover {
+    display: block;
+}
+
+#Odesa_region {
+   z-index: 111;
+}
+
+#Odesa_region ~ .odesa_region {
+    display: none;
+}
+
+#Odesa_region:hover ~ .odesa_region {
+    display: block;
+}
+
+/*sub-header*/
+.sub-header {
+    display: flex;
+}
+
+.sub-header p {
+    margin: 150px 0 0 65px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.sub-header div {
+    display: inline-block;
+    max-width: 612px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.company-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    max-width: 718px;
+}
+
+.company-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 573px;
+}
+
+.company-block-wrap {
+    display: flex;
+}
+
+.company-main-blk {
+   display: flex;
+}
+
+.company-main-blk .company-info {
+    width: 475px;
+}
+
+.company-connect-block {
+    margin-top: 200px;
+}
