@@ -121,32 +121,81 @@
     line-height: 150%;
     margin-top: 10px;
 }
-
+/*----------maps---------------*/
 svg, svg * {
     z-index: 100;
 }
 
 path:hover {
     fill: black;
+    cursor: pointer;
 }
 
-/*.stroke {*/
-/*    stroke-width: 8px;*/
-/*}*/
-
-/*#Frame_9417 {*/
-/*    display: none;*/
-/*}*/
-
-#Frame_9417:hover {
+/*yablunivka*/
+#Yablunivka:hover {
     display: block;
 }
 
-#Group_26 + #Frame_9417 {
+#Yablunivka {
+    z-index: 111;
+}
+
+#Group_26 ~ #Yablunivka {
     display: none;
 }
 
-#Group_26:hover + #Frame_9417 {
+#Group_26:hover ~ #Yablunivka {
+    display: block;
+}
+
+/**/
+#Frame_9425:hover {
+    display: block;
+}
+
+#Frame_9425 {
+   z-index: 111;
+}
+
+#Group_24 ~ #Frame_9425 {
+    display: none;
+}
+
+#Group_24:hover ~ #Frame_9425 {
+    display: block;
+}
+
+/**/
+#ivano-region:hover {
+    display: block;
+}
+
+#ivano-region {
+    z-index: 111;
+}
+
+#ivano-region ~ .bukovel {
+    display: none;
+}
+
+#ivano-region:hover ~ .bukovel {
+    display: block;
+}
+
+/**/
+#Odesa_region:hover {
+    display: block;
+}
+
+#Odesa_region {
+   z-index: 111;
+}
+
+#Odesa_region ~ .odesa_region {
+    display: none;
+}
+
+#Odesa_region:hover ~ .odesa_region {
     display: block;
 }
 
