@@ -89,7 +89,7 @@
     display: flex;
 }
 
-.comparison-wrap div {
+.comparison-title {
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
@@ -104,4 +104,8 @@
     font-weight: 500;
     line-height: 150%;
     width: 475px;
+}
+
+.comparison-block {
+    display: flex;
 }
