@@ -94,6 +94,10 @@
     .company-main{
         margin-top: 80px;
     }
+
+    .company-block-wrap {
+        flex-direction: column;
+    }
     .company-block h3 {
         font-size: 60px;
     }
@@ -315,6 +319,14 @@
     }
     .parallax-text {
         font-size: 88px;
+    }
+    .company-main-blk img {
+        width: 100%;
+    }
+
+    .company-text {
+        max-width: 468px;
+        margin-bottom: 60px;
     }
     .company-block h3 {
         font-size: 40px;
@@ -542,6 +554,15 @@
     }
     .company-block {
         margin-top: 175px;
+    }
+    .company-blk-title {
+        display: none;
+    }
+    .company-main-blk {
+        flex-direction: column-reverse;
+    }
+    .company-main-blk .company-info{
+        margin-top: 20px;
     }
     .company-block>div>p {
         margin-top: 45px;

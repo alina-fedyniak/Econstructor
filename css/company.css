@@ -239,7 +239,7 @@ path:hover {
     width: 573px;
 }
 
-.company-block {
+.company-block-wrap {
     display: flex;
 }
 
