@@ -1,0 +1,107 @@
+.aboutPage-title h1 {
+    max-width: 822px;
+}
+
+.aboutPage-title p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 501px;
+}
+
+.header-title-blk {
+    margin-top: 367px;
+}
+
+.technology-wrap {
+    margin-top: 230px;
+    position: relative;
+}
+
+.technology-wrap .company-title {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.technology-wrap .company-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: absolute;
+    width: 990px;
+}
+
+.technology-blk .company-info p {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-left: 40px;
+    min-width: 475px;
+}
+
+.technology-img {
+    margin-top: 527px;
+    margin-left: 40px;
+}
+
+/*decorWall*/
+.decorWall-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.decorWall-block div{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    width: 515px;
+    margin-bottom: 56px;
+}
+
+.decorWall-block p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 475px;
+    margin-bottom: 40px;
+}
+
+.decorWall-wrap {
+    display: flex;
+}
+
+.decorWall-wrap img{
+    margin: 0 5px;
+}
+
+/*comparison-wrap*/
+.comparison-wrap {
+    display: flex;
+}
+
+.comparison-wrap div {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    width: 716px;
+}
+
+.comparison-wrap p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 475px;
+}

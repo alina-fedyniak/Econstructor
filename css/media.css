@@ -317,6 +317,10 @@
     .visual-cont h3{
         margin-bottom: 80px;
     }
+
+    .technology-img {
+        margin-top: 369px;
+    }
 }
 
 
@@ -685,6 +689,9 @@
     .company-blk-title {
         display: none;
     }
+    .technology-wrap .company-blk-title {
+        display: block;
+    }
     .company-main-blk {
         flex-direction: column-reverse;
     }
@@ -1020,6 +1027,29 @@
     }
     .object-material {
         margin-bottom: 77px;
+    }
+
+    .technology-wrap .company-text {
+        width: 100%;
+    }
+    .technology-blk {
+        flex-wrap: wrap;
+    }
+    .technology-wrap .company-text {
+        display: block;
+        position: initial;
+        width: 100%;
+    }
+    .technology-img {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .technology-blk .company-info p {
+        margin-left: 0;
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 120%;
     }
 }
 
