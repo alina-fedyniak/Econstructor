@@ -4,21 +4,30 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.querySelector(".scroll-button");
-    var scrollHeight = 740; 
+    var scrollHeight = 740;
     var isFixed = false;
 
-    window.addEventListener("scroll", function() {
-        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    function handleScroll() {
+        if (window.innerWidth >= 740) {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (scrollTop >= scrollHeight && !isFixed) {
-            button.style.top = scrollHeight + "px";
-            isFixed = true;
-        } else if (scrollTop < scrollHeight && isFixed) {
-            button.style.top = "";
-            isFixed = false;
+            if (scrollTop >= scrollHeight && !isFixed) {
+                button.style.top = scrollHeight + "px";
+                isFixed = true;
+            } else if (scrollTop < scrollHeight && isFixed) {
+                button.style.top = "";
+                isFixed = false;
+            }
         }
-    });
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Вызываем обработчик сразу при загрузке страницы
+    handleScroll();
 });
+
+
 
 
 
