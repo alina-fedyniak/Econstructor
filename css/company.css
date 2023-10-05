@@ -21,12 +21,11 @@
 /*socProject-wrap*/
 .socProject-wrap {
     display: flex;
-    /*text-align: end;*/
     margin: 200px 0 200px 0;
 }
 
 .socProject-blk {
-    margin-left: 260px;
+    /*margin-left: 260px;*/
 }
 
 .socProject-text {
@@ -39,6 +38,7 @@
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+    margin-top: 100px;
 }
 
 .socProject-blk-title {
@@ -55,18 +55,18 @@
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    width: 475px;
+    max-width: 475px;
     margin-bottom: 38px;
 }
 
 .socProject-text div {
-    width: 475px;
+    max-width: 475px;
     margin-right: 40px;
     line-height: 150%;
 }
 
 .socProject-text div:last-child  {
-    width: 475px;
+    max-width: 475px;
 }
 
 .socProject-text div:last-child a {
@@ -249,4 +249,8 @@ path:hover {
 
 .company-main-blk .company-info {
     width: 475px;
+}
+
+.company-connect-block {
+    margin-top: 200px;
 }
