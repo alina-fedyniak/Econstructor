@@ -100,7 +100,7 @@
 .comparison-wrap {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 320px 0;
+    padding: 0 0 320px 0;
 }
 
 .comparison-title {
@@ -122,6 +122,51 @@
 
 .comparison-block {
     display: flex;
+    align-items: end;
+    margin-top: 100px;
+}
+
+.comparison-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+.comparison-part {
+    display: flex;
+}
+
+.comparison-blk div {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.comparison-blk ul li {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 385px;
+}
+
+.comparison-blk img {
+    margin-right: 20px;
+}
+
+.comparison-blk:first-child {
+    margin-bottom: 100px;
+}
+
+.comparison-wraps {
+    margin-left: 40px;
 }
 
 /*frameHouse*/
@@ -176,4 +221,48 @@
     font-weight: 500;
     line-height: 150%;
     max-width: 990px;
+}
+
+/**/
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*servis*/
+.services-title {
+    max-width: 100%;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 67.6px */
+    text-transform: uppercase;
+    margin-bottom: 129px;
+}
+
+.servis_item-2 {
+    flex-direction: row-reverse;
+}
+
+.services-wrap {
+    display: flex;
+    align-items: end;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
