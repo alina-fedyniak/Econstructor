@@ -123,3 +123,57 @@
 .comparison-block {
     display: flex;
 }
+
+/*frameHouse*/
+.frameHouse-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.frameHouse-title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.frameHouse-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.frameHouse-item span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.frameHouse-item img{
+    margin-right: 20px;
+}
+
+.frameHouse-block {
+    margin-left: 100px;
+}
+
+.frameHouse-block div {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin: -30px 0 100px 40px;
+}
+
+.frameHouse-block p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 990px;
+}

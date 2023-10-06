@@ -321,6 +321,24 @@
     .technology-img {
         margin-top: 369px;
     }
+    .frameHouse-container {
+        flex-direction: column-reverse;
+    }
+    .frameHouse-block {
+         margin-left: 0;
+    }
+    .frameHouse-list {
+        display: flex;
+    }
+    .frameHouse-part {
+        margin-top: 95px;
+    }
+    .frameHouse-block p {
+        margin-bottom: 40px;
+    }
+    .frameHouse-block img {
+        width: 100%;
+    }
 }
 
 
