@@ -15,8 +15,8 @@
 }
 
 .technology-wrap {
-    margin-top: 230px;
     position: relative;
+    padding-top: 230px;
 }
 
 .technology-wrap .company-title {
@@ -51,6 +51,11 @@
     margin-left: 40px;
 }
 
+/*materials*/
+.materials-wrap {
+    margin: 272px 0 300px 0;
+}
+
 /*decorWall*/
 .decorWall-block {
     display: flex;
@@ -78,15 +83,24 @@
 
 .decorWall-wrap {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
 }
 
 .decorWall-wrap img{
-    margin: 0 5px;
+    /*margin: 0 5px;*/
 }
 
 /*comparison-wrap*/
+.comparison-container {
+    border: 1px solid grey;
+    margin-bottom: 100px;
+}
+
 .comparison-wrap {
     display: flex;
+    justify-content: space-between;
+    padding: 100px 0 320px 0;
 }
 
 .comparison-title {
