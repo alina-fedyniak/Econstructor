@@ -55,6 +55,41 @@
 .materials-wrap {
     margin: 272px 0 300px 0;
 }
+.materials-title {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 190px;
+}
+
+.materials-wrap .title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 30px;
+    max-width: 475px;
+}
+
+.materials-wrap p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 475px;
+}
+
+.materials-blk {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.materials-blk img {
+    margin-right: 64px;
+}
 
 /*decorWall*/
 .decorWall-block {
@@ -385,4 +420,26 @@ swiper-slide img {
     align-items: end;
     flex-direction: row-reverse;
     justify-content: center;
+}
+.block-title {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 67.6px */
+    text-transform: uppercase;
+}
+
+.block-part {
+    margin-top: 100px;
+}
+
+.mod-wrap {
+    width: 50%;
+}
+
+.mod-wrap .skin_buttom{
+    right: -110px;
+}
+.mod-blk {
+    margin-top: 100px;
 }
