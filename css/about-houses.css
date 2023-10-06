@@ -87,8 +87,128 @@
     margin-bottom: 200px;
 }
 
-.decorWall-wrap img{
-    /*margin: 0 5px;*/
+.decorWall-item {
+    position: relative;
+}
+
+.puls-icon {
+    position: absolute;
+    z-index: 1;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.puls-1 {
+    top: 95px;
+    left: 276px;
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.puls-1:hover + .chipboard{
+    display: flex;
+}
+
+.puls-2:hover + .ceramic{
+    display: flex;
+}
+
+.puls-3:hover + .ceramic-2{
+    display: flex;
+}
+
+.puls-4:hover + .mdf{
+    display: flex;
+}
+
+.puls-2 {
+    bottom: 285px;
+    right: 111px;
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.puls-3 {
+    bottom: 15px;
+    left: 276px;
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.puls-4 {
+    bottom: 19px;
+    left: 109px;
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.materiale {
+    width: 180px;
+    height: 55px;
+    border-radius: 60px;
+    background: #FFF;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.chipboard {
+    top: 35px;
+    left: 238px;
+    display: none;
+    transition-duration: .3s;
+}
+
+.ceramic {
+    top: 216px;
+    left: 393px;
+    display: none;
+}
+
+.ceramic-2 {
+    top: 481px;
+    left: 229px;
+    display: none;
+}
+
+.mdf {
+    bottom: 88px;
+    left: 66px;
+    display: none;
 }
 
 /*comparison-wrap*/
@@ -100,7 +220,7 @@
 .comparison-wrap {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 320px 0;
+    padding: 100px 0 320px 0;
 }
 
 .comparison-title {
