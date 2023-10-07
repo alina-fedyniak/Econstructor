@@ -342,6 +342,11 @@
     .frameHouse-block img {
         width: 100%;
     }
+    .header_nav {
+        position: fixed;
+        width: 79%;
+        z-index: 1111;
+    }
 }
 
 
