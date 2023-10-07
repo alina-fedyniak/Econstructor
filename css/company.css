@@ -14,6 +14,15 @@
     max-width: 691px;
 }
 
+.mod-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mod-wrapper .mod-contant {
+    margin-left: 50%;
+}
+
 .main-wrap{
     margin-top: 455px;
 }

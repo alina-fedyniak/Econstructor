@@ -16,6 +16,9 @@
         max-width: 100%;
         gap: 40px;
     }
+    .mod-wrapper .mod-contant {
+        margin-left: 0;
+    }
     .title-block_main h1 {
         font-size: 94px;
         margin-top: 20px;
