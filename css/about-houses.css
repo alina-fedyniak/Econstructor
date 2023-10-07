@@ -1,3 +1,7 @@
+.main-wrap {
+    margin-top: 521px;
+}
+
 .aboutPage-title h1 {
     max-width: 822px;
 }
@@ -8,10 +12,6 @@
     font-weight: 500;
     line-height: 150%;
     max-width: 501px;
-}
-
-.header-title-blk {
-    margin-top: 367px;
 }
 
 .technology-wrap {

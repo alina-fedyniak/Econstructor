@@ -633,6 +633,11 @@
     .object-connect {
 
     }
+    .header_nav {
+        position: static;
+        width: 100%;
+        z-index: 1111;
+    }
 
 }
 /* ============740-340=================== */

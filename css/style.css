@@ -238,7 +238,11 @@ table {
     cursor: pointer;
 }
 
-
+.header_nav {
+    position: fixed;
+    width: 79%;
+    z-index: 1111;
+}
 
 
 .header_nav ul {
@@ -328,7 +332,7 @@ table {
 }
 
 .main{
-    margin-top: 285px;
+    margin-top: 418px;
 }
 /* ==============sub-header================= */
 .sub-header {
@@ -1471,7 +1475,7 @@ label:hover::after{
 
 /* ===================catalog-page============ */
 .catalog_mr{
-    margin-top: 480px;
+    margin-top: 625px;
 }
 .catalog_filter{
     margin-top: 100px;
