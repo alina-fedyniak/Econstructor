@@ -283,6 +283,28 @@
     .visual-cont h3{
         margin-bottom: 80px;
     }
+    .obj-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* ------------------ */
+    .pop_item_1{
+        top: 12%;
+
+    }
+    .pop_item_3{
+        top: 33%;
+        right: 44%;
+    }
+    .pop_item_4{
+        top: 27%;
+        right: 28%;
+    }
+    .pop_item_5{
+        top: 23%;
+        right: 18.6%;
+    }
+    /* ------------------ */
 }
 
 
@@ -939,6 +961,12 @@
     }
     .object-material {
         margin-bottom: 77px;
+    }
+    .object_item {
+        max-width: 100%;
+    }
+    .obj-btn{
+        align-items: flex-end;
     }
 }
 
