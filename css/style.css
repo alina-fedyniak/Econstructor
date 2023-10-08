@@ -1689,23 +1689,72 @@ label:hover::after{
     position: relative;
 }
 .pop_up_material{
+    display: flex;
     position: absolute;
-    top: 17%;
-    right: 37%;
-    display: inline-block;
+    flex-direction: column-reverse;
+    align-items: center;
 }
+/* ---------------- */
+.pop_item_1{
+    top: 13%;
+    right: 34%;
+    z-index: 15;
+}
+.pop_item_2{
+    top: 41%;
+    right: 68%;
+}
+.pop_item_3{
+    top: 33%;
+    right: 45%;
+}
+.pop_item_4{
+    top: 23%;
+    right: 29%;
+    z-index: 5;
+}
+.pop_item_5{
+    top: 23%;
+    right: 19.3%;
+}
+/* ---------------- */
 .pop_up_material span{
-    position: absolute;
-    top: 17%;
-    right: 37%;
-    display: inline-block;
+    display: flex;
     width: 23px;
     height: 23px;
-    background-color: #fff;
+    border: 2px solid white;
     border-radius: 50%;
-    padding: 6px;
+    box-shadow: 0 0 30px white;
+    justify-content: center;
+    align-items: center;
+}
+.pop_up_material span::after{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
     box-shadow: 0 0 30px white;
 }
+
+.pop_up_material p{
+    opacity: 0;
+    transition: all .4s ease;
+    padding: 15px 22px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 60px;
+    margin-bottom: 13px;
+}
+
+.pop_up_material span:hover + p {
+    opacity: 1;
+  }
+
+
+
+
 
 
 
@@ -1813,5 +1862,73 @@ label:hover::after{
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+    margin-top: 100px;
+}
+/* -------------------- */
+
+.swiper{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.swiper-slide img{
+    max-width: 100%;
+    max-height: 549px;
+}
+
+
+.swiper-button-prev{
+    bottom: 0 !important;
+}
+
+.object_item{
+    max-width: 50%;
+}
+
+/* ============== */
+
+.object-cont{
+    margin-left: auto;
+    justify-content: space-between;
+}
+.obj-btn p{
+    margin-left: -50px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 100;
+    cursor: pointer;
+}
+
+.swiper-btn{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.swiper-btn-prev:after {
+    content: '';
+    background-image: url('/img/swiper-btn.svg');
+    display: inline-block;
+    width: 100px;
+    height: 88px;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+.swiper-btn-next:after {
+    content: '';
+    background-image: url('/img/swiper-btn.svg');
+    display: inline-block;
+    width: 100px;
+    height: 88px;
+    background-repeat: no-repeat;
+}
+
+.obj_item_title{
+    margin-top: 0;
+}
+.obj-cont{
     margin-top: 100px;
 }

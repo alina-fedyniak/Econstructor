@@ -320,7 +320,6 @@
     .visual-cont h3{
         margin-bottom: 80px;
     }
-
     .technology-img {
         margin-top: 369px;
     }
@@ -341,6 +340,26 @@
     }
     .frameHouse-block img {
         width: 100%;
+    }
+    .obj-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .pop_item_1{
+        top: 12%;
+
+    }
+    .pop_item_3{
+        top: 33%;
+        right: 44%;
+    }
+    .pop_item_4{
+        top: 27%;
+        right: 28%;
+    }
+    .pop_item_5{
+        top: 23%;
+        right: 18.6%;
     }
 }
 
@@ -569,7 +588,6 @@
     .filter_wrap button {
         font-size: 18px;
     }
-
     .servis_title_r h5 {
         font-size: 38px;
     }
@@ -1054,7 +1072,6 @@
     .object-material {
         margin-bottom: 77px;
     }
-
     .technology-wrap .company-text {
         width: 100%;
     }
@@ -1076,6 +1093,12 @@
         font-size: 25px;
         font-weight: 600;
         line-height: 120%;
+    }
+    .object_item {
+        max-width: 100%;
+    }
+    .obj-btn{
+        align-items: flex-end;
     }
 }
 
