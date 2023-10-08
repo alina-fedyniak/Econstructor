@@ -143,6 +143,7 @@
     line-height: 150%;
     width: 475px;
     margin-bottom: 40px;
+    margin-top: 256px;
 }
 
 .decorWall-wrap {
@@ -287,7 +288,7 @@
     padding: 100px 0 320px 0;
 }
 
-.comparison-title {
+.comparison-title-1 {
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
