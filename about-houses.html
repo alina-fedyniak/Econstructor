@@ -161,7 +161,7 @@
                             <div class="materials-title">Матеріали</div>
                         <div class="materials-slides">
                             <div class="info-hor-block-mat">
-                                <div>
+                                <div class="info-hor-wrap">
                                     <div class="materials-blk left-slide-1 panel" data-color="1">
                                         <img src="img/about_house/material-1.png" alt="house">
                                         <div>
@@ -962,21 +962,8 @@
                     } else {
                         panel.classList.remove(`color-${data}`);
                     }
-
             })
 
-            imagesRight.forEach((item) => {
-                const elementTop = item.getBoundingClientRect().top;
-                const isElementInMiddle = elementTop <= 0;
-
-
-                const data = item.dataset.color;
-                if(isElementInMiddle) {
-                    item.classList.add(`color-${data}`);
-                } else {
-                    item.classList.remove(`color-${data}`);
-                }
-            })
         })
 
     </script>

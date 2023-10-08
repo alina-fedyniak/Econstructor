@@ -347,6 +347,24 @@
         width: 79%;
         z-index: 1111;
     }
+    .materials-blk img {
+        margin-right: 44px;
+        width: 219px;
+    }
+    .materials-wrap p {
+        max-width: 297px;
+    }
+    .materials-wrap .title {
+        font-size: 35px;
+        line-height: 150%;
+        max-width: 331px;
+    }
+    .materials-blk {
+        margin-bottom: 80px;
+    }
+    .img-right {
+        width: 775px;
+    }
 }
 
 
@@ -642,6 +660,31 @@
         position: static;
         width: 100%;
         z-index: 1111;
+    }
+
+    .info-hor-wrap {
+        margin-top: 625px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .materials-blk {
+        display: flex;
+        flex-direction: column;
+        margin-right: 64px;
+    }
+    .materials-blk img {
+         margin-right: 0;
+        width: 112px;
+    }
+    .materials-wrap .title {
+        font-size: 16px;
+        max-width: 331px;
+    }
+    .materials-wrap p {
+        width: 257px;
+    }
+    .materials-slides {
+        flex-direction: column-reverse;
     }
 
 }
