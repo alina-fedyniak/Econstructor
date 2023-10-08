@@ -341,6 +341,86 @@
     .frameHouse-block img {
         width: 100%;
     }
+    .header_nav {
+        position: fixed;
+        width: 79%;
+        z-index: 1111;
+    }
+    .materials-blk img {
+        margin-right: 44px;
+        width: 219px;
+    }
+    .materials-wrap p {
+        max-width: 297px;
+    }
+    .materials-wrap .title {
+        font-size: 35px;
+        line-height: 150%;
+        max-width: 331px;
+    }
+    .materials-blk {
+        margin-bottom: 80px;
+    }
+    .img-right {
+        width: 775px;
+    }
+    .decorWall-block div {
+        font-size: 50px;
+    }
+    .decorWall-img {
+        width: 100%;
+    }
+    .puls-2 {
+        bottom: 208px;
+        right: 93px;
+    }
+    .puls-2 {
+        bottom: 300px;
+        right: 111px;
+    }
+    .puls-1 {
+        top: 79px;
+        left: 287px;
+    }
+    .puls-3 {
+        bottom: 15px;
+        left: 264px;
+    }
+    .ceramic {
+        top: 144px;
+        left: 306px;
+    }
+    .ceramic-2 {
+        top: 409px;
+        left: 212px;
+    }
+    .comparison-title-1 {
+        font-size: 50px;
+    }
+    .comparison-wrap p {
+        font-size: 18px;
+        width: 330px;
+    }
+    .comparison-wrap {
+        justify-content: center;
+        padding: 80px 0 190px 0;
+    }
+    .comparison-block {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .comparison-title {
+        width: 650px;
+        margin-top: -56px;
+        margin-left: 30px;
+    }
+    .comparison-blk div {
+        font-size: 30px;
+    }
+    .comparison-blk ul li {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
     .obj-btn{
         display: flex;
         justify-content: flex-end;
@@ -361,7 +441,8 @@
         top: 23%;
         right: 18.6%;
     }
-}
+
+    }
 
 
 
@@ -655,6 +736,89 @@
         position: static;
         width: 100%;
         z-index: 1111;
+    }
+
+    .info-hor-wrap {
+        margin-top: 625px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .materials-blk {
+        display: flex;
+        flex-direction: column;
+        margin-right: 64px;
+    }
+    .materials-blk img {
+         margin-right: 0;
+        width: 112px;
+    }
+    .materials-wrap .title {
+        font-size: 16px;
+        max-width: 331px;
+    }
+    .materials-wrap p {
+        width: 257px;
+    }
+    .materials-slides {
+        flex-direction: column-reverse;
+    }
+    .decorWall-block div {
+        font-size: 38px;
+    }
+    .puls-2 {
+        bottom: 171px;
+        right: 59px;
+    }
+    .puls-1 {
+        top: 79px;
+        left: 180px;
+    }
+    .puls-3 {
+        left: 169px;
+    }
+    .puls-4 {
+        bottom: 19px;
+        left: 58px;
+    }
+    .materiale {
+        width: 170px;
+        height: 39px;
+    }
+    .chipboard {
+        top: 35px;
+        left: 143px;
+    }
+    .ceramic {
+        top: 115px;
+        left: 201px;
+    }
+    .ceramic-2 {
+        top: 259px;
+        left: 123px;
+    }
+    .comparison-title-1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .comparison-wrap p {
+        width: 345px;
+    }
+    .comparison-wrap {
+        justify-content: space-between;
+        padding: 60px 0 145px 0;
+    }
+    .comparison-title {
+        width: 494px;
+    }
+    .comparison-blk div {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .comparison-blk ul li {
+        margin-bottom: 8px;
+    }
+    .mod-wrap {
+        width: 100%;
     }
 
 }
@@ -1094,12 +1258,108 @@
         font-weight: 600;
         line-height: 120%;
     }
+    .decorWall-block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .decorWall-block p {
+        margin-top: 0;
+        width: 100%;
+    }
+    .decorWall-block div {
+        font-size: 30px;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    .img-right {
+        width: 608px;
+    }
+    .image-wrapper {
+        left: 61px;
+    }
+    .decorWall-wrap {
+        margin-bottom: 130px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .materials-wrap {
+        margin: 272px 0 130px 0;
+    }
+    .decorWall-block p {
+        margin-bottom: 0;
+    }
+    .puls-1 {
+        top: 109px;
+        left: 276px;
+    }
+    .chipboard {
+        top: 63px;
+        left: 256px;
+    }
+    .puls-2 {
+        bottom: 282px;
+        right: 116px;
+    }
+    .ceramic {
+        top: 213px;
+        left: 367px;
+    }
+    .puls-3 {
+        left: 284px;
+    }
+    .ceramic-2 {
+        top: 492px;
+        left: 243px;
+    }
+    .comparison-wrap {
+        flex-direction: column;
+        padding-top: 45px;
+        padding-bottom: 130px;
+    }
+    .comparison-title-1 {
+        font-size: 30px;
+        margin-bottom: 45px;
+        width: 340px;
+    }
+    .comparison-wrap p {
+        width: 100%;
+    }
+    .comparison-block {
+        flex-direction: column;
+    }
+    .comparison-part {
+        flex-direction: column;
+    }
+    .comparison-block {
+        position: relative;
+    }
+    .comparison-title {
+        font-size: 30px;
+        width: 320px;
+        position: absolute;
+        z-index: 1;
+        top: 855px;
+    }
+    .comparison-wraps {
+         margin-left: 0;
+        margin-top: 143px;
+    }
+    .comparison-blk div {
+        margin-bottom: 20px;
+    }
+    .comparison-blk ul li {
+        margin-bottom: 5px;
+    }
+    .mod-wrap {
+        width: 100%;
+    }
     .object_item {
         max-width: 100%;
     }
     .obj-btn{
         align-items: flex-end;
     }
+
 }
 
 

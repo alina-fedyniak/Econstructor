@@ -55,6 +55,35 @@
 .materials-wrap {
     margin: 272px 0 300px 0;
 }
+
+.materials-slides {
+    display: flex;
+}
+
+.info-hor-block-mat > div > .panel {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.color-1, .color-2, .color-3, .color-3, .color-4, .color-5, .color-6 {
+    opacity: 1 !important;
+}
+
+.img-container {
+    position: relative;
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 100px;
+}
+
+.img-right {
+    opacity: 1;
+    position: absolute;
+    transition: opacity 0.3s;
+}
+
 .materials-title {
     font-size: 52px;
     font-style: normal;
@@ -114,6 +143,7 @@
     line-height: 150%;
     width: 475px;
     margin-bottom: 40px;
+    margin-top: 256px;
 }
 
 .decorWall-wrap {
@@ -258,7 +288,7 @@
     padding: 100px 0 320px 0;
 }
 
-.comparison-title {
+.comparison-title-1 {
     font-size: 52px;
     font-style: normal;
     font-weight: 600;
