@@ -1,3 +1,6 @@
+@import './company.css';
+@import './about-houses.css';
+
 html,
 body,
 div,
@@ -235,7 +238,11 @@ table {
     cursor: pointer;
 }
 
-
+.header_nav {
+    position: fixed;
+    width: 79%;
+    z-index: 1111;
+}
 
 
 .header_nav ul {
@@ -325,7 +332,7 @@ table {
 }
 
 .main{
-    margin-top: 285px;
+    margin-top: 418px;
 }
 /* ==============sub-header================= */
 .sub-header {
@@ -373,7 +380,7 @@ table {
     text-transform: uppercase;
 }
 
-.grid-flex h5 {
+.grid-flex h5 a {
     font-size: 30px;
     font-weight: 600;
     line-height: 150%;
@@ -382,7 +389,7 @@ table {
     position: relative;
     cursor: pointer;
 }
-.grid-flex h5::after {
+.grid-flex h5 a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -393,7 +400,7 @@ table {
     transition: all .5s ease;
 }
 
-.grid-flex h5:hover:after {
+.grid-flex h5 a:hover:after {
     width: 100%;
 }
 
@@ -407,7 +414,7 @@ table {
     line-height: 150%;
 }
 
-.mod-block a {
+.mod-block a:not(:first-child) {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -415,7 +422,7 @@ table {
     margin-top: 10px;
 }
 
-.mod-block a::after {
+.mod-block a:not(:first-child):after {
     content: "";
     width: 17px;
     height: 7px;
@@ -1468,7 +1475,7 @@ label:hover::after{
 
 /* ===================catalog-page============ */
 .catalog_mr{
-    margin-top: 480px;
+    margin-top: 625px;
 }
 .catalog_filter{
     margin-top: 100px;
