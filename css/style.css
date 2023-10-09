@@ -1290,7 +1290,7 @@ input[type=checkbox]:checked+label::before {
     right: -110%;
     width: 100%;
     height: 100%;
-    z-index: 800;
+    z-index: 1200;
     transition: all 1s ease;
 }
 
@@ -1356,7 +1356,7 @@ input[type=checkbox]:checked+label::before {
 
 .burger-icon {
     display: none;
-    z-index: 999;
+    z-index: 1250;
     cursor: pointer;
 }
 
@@ -1418,7 +1418,7 @@ input[type=checkbox]:checked+label::before {
 .pop_up.active{
     visibility: visible;
     opacity: 1;
-    z-index: 100;
+    z-index: 1200;
     transition: all .4s ease;
 }
 .pop_close{
