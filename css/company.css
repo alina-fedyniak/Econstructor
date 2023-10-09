@@ -135,7 +135,7 @@ svg, svg * {
     z-index: 100;
 }
 
-path:hover {
+.map path:hover {
     fill: black;
     cursor: pointer;
 }
