@@ -310,6 +310,7 @@ table {
     display: inline-block;
     width: 100%;
     z-index: 1111;
+    /* mix-blend-mode: difference; */
 }
 
 .skin_buttom>p {
@@ -444,7 +445,7 @@ table {
     background: url('../img/full-scr.svg') no-repeat;
     background-size: cover;
     display: inline-block;
-
+    mix-blend-mode: difference;
 }
 
 .mod-block p {
