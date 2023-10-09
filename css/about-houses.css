@@ -34,7 +34,8 @@
     font-weight: 500;
     line-height: 150%;
     position: absolute;
-    width: 990px;
+    width: 100%;
+    max-width: 990px;
 }
 
 .technology-blk .company-info p {
@@ -42,8 +43,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    margin-left: 40px;
-    min-width: 475px;
+    margin-left: 0;
+    /*margin-left: 40px;*/
+    /*min-width: 475px;*/
 }
 
 .technology-img {
@@ -59,29 +61,27 @@
 .materials-slides {
     display: flex;
 }
-
-.info-hor-block-mat > div > .panel {
-    transition: 0.5s;
-    opacity: 0.5;
-}
-
-.color-1, .color-2, .color-3, .color-3, .color-4, .color-5, .color-6 {
-    opacity: 1 !important;
-}
-
 .img-container {
-    position: relative;
+    width: 100%;
+}
+.img-right {
+    width: 100%;
+    height: inherit;
 }
 
 .image-wrapper {
-    position: absolute;
-    top: 100px;
+    position: sticky;
+    top: 0;
 }
 
 .img-right {
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     transition: opacity 0.3s;
+}
+
+.img-right.apear2 {
+    opacity: 1;
 }
 
 .materials-title {
@@ -113,7 +113,12 @@
 .materials-blk {
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
+    opacity: 0.5;
+    padding: 50px 0;
+}
+.materials-blk.apear {
+    opacity: 1;
 }
 
 .materials-blk img {
@@ -141,7 +146,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    width: 475px;
+    max-width: 475px;
     margin-bottom: 40px;
     margin-top: 256px;
 }
@@ -317,6 +322,7 @@
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
+    max-width: 700px;
 }
 
 .comparison-part {
