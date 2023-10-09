@@ -304,7 +304,7 @@
                 </section>
             </div>
             <!-- ---------------------- -->
-            <section>
+            <!-- <section>
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide-1">
@@ -320,15 +320,27 @@
                             <img src="./img/carousel/slide_4.jpeg" alt="">
                         </div>
                     </div>
-                    <!-- <div class="swiper-pagination"></div> -->
                     <div class="swiper-btn _container">
                         <div class="swiper-btn-prev"></div>
                         <div class="swiper-btn-next"></div>
                     </div>
-                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </section> -->
+            <section class="slider swiper">
+                <div class="mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/carousel/slide_1.jpg" alt="house"></div>
+                        <div class="swiper-slide"><img src="img/carousel/slide_2.jpg" alt="house"></div>
+                        <div class="swiper-slide"><img src="img/carousel/slide_3.jpeg" alt="house"></div>
+                        <div class="swiper-slide"><img src="img/carousel/slide_4.jpeg" alt="house"></div>
+                    </div>
+                    <div class="swiper-btn _container">
+                        <div class="swiper-btn-prev"></div>
+                        <div class="swiper-btn-next"></div>
+                    </div>
                 </div>
             </section>
-
+            
 
 
             <!-- --------------- -->
@@ -584,14 +596,12 @@
     <!-- <script src="./js/swiper.js"></script> -->
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
+        <!-- <script>
         const swiper = new Swiper('.swiper', {
-            // Optional parameters
             loop: true,
             slidesPerView: 2,
             centeredSlides: true,
             spaceBetween: 20,
-            // mousewheel: true,
             speed: 1000,
             breakpoints: {
                 1200:{
@@ -602,7 +612,6 @@
       spaceBetween: 30,
     },
 
-    // Параметры для разрешения экрана шириной более 1024 пикселей
     0: {
       slidesPerView: 1,
       spaceBetween: 40,
@@ -613,14 +622,29 @@
     nextEl: '.swiper-btn-next',
     prevEl: '.swiper-btn-prev',
   },
-//   autoplay: {
-//     delay: 3000,
-//   },
+
   effect: 'slide',
 
             });
+    </script> -->
+    <script>
+var swiper1 = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        mousewheel: "true",
+        loop: "true",
+        centeredSlides: "true",
+        pagination: {
+            // el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-btn-next',
+            prevEl: '.swiper-btn-prev',
+        },
+    });
     </script>
-
+    
     <!-- <script src="./js/color_page.js"></script> -->
     <script src="./js/main.js"></script>
 </body>
