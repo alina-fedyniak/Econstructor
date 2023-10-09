@@ -241,6 +241,7 @@ table {
 .header_nav {
     position: fixed;
     width: 65%;
+    /* width: 79%; */
     z-index: 1111;
 }
 
@@ -317,6 +318,7 @@ table {
     line-height: 150%;
     text-transform: uppercase;
     cursor: pointer;
+    mix-blend-mode: difference;
 }
 
 .svg-btn {
@@ -324,6 +326,7 @@ table {
     top: -98px;
     left: 135px;
     transition: all .3s ease;
+    mix-blend-mode: difference;
 }
 
 .svg-btn:hover {
@@ -805,6 +808,7 @@ table {
     height: 88px;
     background-image: url('../img/arrow-arc.svg');
     transition: all .3s ease;
+    mix-blend-mode: difference;
 }
 
 .architects-info a:hover:after {
@@ -867,6 +871,7 @@ table {
     border-bottom: 1px solid var(--text-color);
     padding: 20px;
     max-width: 775px;
+    mix-blend-mode: difference;
 }
 
 .form-btn {
@@ -1761,12 +1766,39 @@ label:hover::after{
 .obj-scheme{
     max-width: 100%;
 }
+.obj-scheme h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.obj-scheme h6{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.obj-scheme h6::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url(../img/full-scr.svg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 20px;
+    mix-blend-mode: difference;
+}
 .obj-scheme img{
     mix-blend-mode: difference;
 }
 .object-connect{
     margin-top: 200px;
-    margin-bottom:45px;
+    margin-bottom:100px;
+}
+.object-connect p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
 }
 .filter_planning{
     display: flex;
@@ -1776,6 +1808,8 @@ label:hover::after{
     width: 235px;
     height: 70px;
     padding: 7px;
+    mix-blend-mode: difference;
+    box-sizing: border-box;
 }
 .filter_planning button{
     color: rgba(255, 255, 255, 0.50);
@@ -1796,7 +1830,7 @@ label:hover::after{
     border-radius: 60px;
     color: var(--text-color);
 }
-.planning-block>div:first-child{
+.planning-block-filter{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -1827,6 +1861,15 @@ label:hover::after{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+.planning-block>h4{
+    display: none;
+    max-width: 206px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 45px;
 }
 
 .visual_block{
@@ -1863,6 +1906,9 @@ label:hover::after{
     line-height: 130%;
     text-transform: uppercase;
     margin-top: 100px;
+}
+.visual-cont>h3:nth-child(2){
+    display: none;
 }
 /* -------------------- */
 
@@ -1931,4 +1977,40 @@ label:hover::after{
 }
 .obj-cont{
     margin-top: 100px;
+}
+.filter_planning button.active {
+    border: 1px solid white;
+    border-radius: 60px;
+    color: var(--text-color);
+}
+
+/* ------------------ */
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.pop_item_1,
+.pop_item_2,
+.pop_item_3,
+.pop_item_4,
+.pop_item_5 {
+    animation-name: pulse;
+    transform-origin: center center;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
 }
