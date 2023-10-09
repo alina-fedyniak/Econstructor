@@ -309,6 +309,7 @@ table {
     position: relative;
     display: inline-block;
     width: 100%;
+    z-index: 1111;
 }
 
 .skin_buttom>p {
@@ -1317,6 +1318,12 @@ input[type=checkbox]:checked+label::before {
     font-size: 25px;
     font-weight: 600;
     line-height: 150%;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.menu-content li:hover{
+    text-decoration: underline;
 }
 .boot_svg{
     width: 129px;
