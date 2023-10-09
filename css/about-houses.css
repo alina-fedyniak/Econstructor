@@ -64,6 +64,11 @@
 .img-container {
     width: 100%;
 }
+
+img.img-markup {
+    display: none;
+}
+
 .img-right {
     width: 100%;
     height: inherit;
@@ -418,6 +423,10 @@
 swiper-container {
     width: 100%;
     height: 100%;
+}
+
+.swiper-initialized {
+    overflow: hidden;
 }
 
 swiper-slide {
