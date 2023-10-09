@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=MuseoModerno:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <title>Document</title>
@@ -199,7 +199,7 @@
             <div class="_container">
                 <section class="connect-block _containerTwo">
                     <h2 class="parallax-text">зв'язок</h2>
-                    <div class="grid-connect">
+                    <div class="grid-connect object-form">
                         <div>
                             <p>Отримай консультацію від наших менеджерів. Заповніть форму зворотного зв’язку і наші
                                 спеціалисти зв’яжуться з Вами для детальної консультації</p>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="connect-block _containerTwo">
+                <section class="connect-block _containerTwo obj-revers">
                     <div class="grid-connect object-connect">
                         <div>
                             <p>Планування будинку розроблене таким чином, щоб забезпечити оптимальне використання
@@ -250,20 +250,22 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="parallax-text">планування</h2>
+                    <h2 class="parallax-text object-h2">планування</h2>
                 </section>
                 <section>
                     <div class="">
                         <div class="planning-block">
-                            <div>
+                            <h4>Перегляд 3Д туру</h4>
+                            <div class="planning-block-filter">
                                 <div class="filter_planning">
-                                    <button class="active">1 тип</button>
-                                    <button>2 тип</button>
+                                    <button class="active" onclick="toggleActive(this)">1 тип</button>
+                                    <button onclick="toggleActive(this)">2 тип</button>
                                 </div>
                                 <p>Зробіть віртуальну прогулянку по Weekend54 з нашим 3D туром. Відчуйте простір,
                                     зручність та елегантність цього модульного будинку, не виходячи з дому.</p>
                             </div>
                             <div class="planning-block_img">
+                                
                                 <img src="./img/room-object.jpg" alt="">
                                 <div>
                                     <a href="#">Перегляд 3Д туру</a>
@@ -283,6 +285,7 @@
                 </section>
                 <section class="_containerTwo visual-cont">
                     <h3>Відео- <br> візуалізація </h3>
+                    <h3>Відеовізуалізація </h3>
                     <div class="visual_block">
                         <img src="./img/visual-room.jpg" alt="">
                         <div>
@@ -301,85 +304,94 @@
                 </section>
             </div>
             <!-- ---------------------- -->
-                <section>
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide slide-1">
+            <section>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide-1">
                             <img src="./img/carousel/slide_1.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide slide-2">
-                            <img src="./img/carousel/slide_2.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide slide-3">
-                            <img src="./img/carousel/slide_3.jpeg" alt="">
-                          </div>
-                            <div class="swiper-slide slide-4">
-                                <img src="./img/carousel/slide_4.jpeg" alt="">
-                            </div>
                         </div>
-                      <!-- <div class="swiper-pagination"></div> -->
-                      <div class="swiper-btn _container">
-                          <div class="swiper-btn-prev"></div>
-                          <div class="swiper-btn-next"></div>
-                      </div>
+                        <div class="swiper-slide slide-2">
+                            <img src="./img/carousel/slide_2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide slide-3">
+                            <img src="./img/carousel/slide_3.jpeg" alt="">
+                        </div>
+                        <div class="swiper-slide slide-4">
+                            <img src="./img/carousel/slide_4.jpeg" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <div class="swiper-btn _container">
+                        <div class="swiper-btn-prev"></div>
+                        <div class="swiper-btn-next"></div>
+                    </div>
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </section>
 
-
-                      <!-- <div class="swiper-scrollbar"></div> -->
-                      </div>
-                </section>
 
 
             <!-- --------------- -->
-                <section class="_container">
-                    <div class="mod-block">
-                        <div class="mod-title obj_item_title">
-                            <h3>комплектація</h3>
-                        </div>
-                        <div class="mod-contant _containerTwo obj-cont">
-                            <div class="grid-flex object_item">
-                                <img src="./img/house_1.png" alt="mod-house">
+            <section class="_container benefits-block">
+                <div class="mod-block ind-block">
+                    <h2 class="block-title">комплектація</h2>
+                    <div class="mod-contant block-part">
+                        <div class="mod-wrap">
+                            <div class="grid-flex">
+                                <img src="./img/about_house/complectation-1.png" alt="house">
                                 <div>
                                     <h5>Повна комплектація</h5>
+                                    <p>Наше повне оздоблення будинку з меблями - це комфорт і стиль, що забезпечуються
+                                        уважно підібраними
+                                        меблями високої якості. Ваш будинок буде готовий до негайного заселення
+                                        і надасть вам затишок та естетичне задоволення.</p>
                                 </div>
-                                <p>Наше повне оздоблення будинку з меблями - це комфорт і стиль, що забезпечуються уважно підібраними меблями високої якості. Ваш будинок буде готовий до негайного заселення і надасть вам затишок та естетичне задоволення.</p>
                             </div>
-                            <div class="grid-flex object_item">
-                                <img src="./img/house_2.png" alt="mod-house">
+                                <div class="grid-flex">
+                                    <img src="./img/about_house/complectation-2.png" alt="house">
+                                    <div>
+                                        <h5>Під оздоблення</h5>
+                                        <p>Наше повне оздоблення будинку з меблями - це комфорт і стиль, що
+                                            забезпечуються уважно підібраними
+                                            меблями високої якості. Ваш будинок буде готовий до негайного заселення і
+                                            надасть
+                                            вам затишок та естетичне задоволення.</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mod-wrap">
+                            <div class="grid-flex">
+                                <img src="./img/about_house/complectation-3.png" alt="house">
                                 <div>
                                     <h5>Чистове оздоблення</h5>
+                                    <p>Чистове оздоблення нашого будинку - це бездоганна комбінація естетики,
+                                        функціональності та якості. Ми використовуємо високоякісні матеріали та сучасні
+                                        технології, щоб створити простір, який вражає своєю красою та комфортом. Від
+                                        уважно продуманих деталей до унікальних
+                                        акцентів - кожен куток будинку втілений з метою створити привабливе та затишне
+                                        середовище для вас та вашої сім'ї.</p>
                                 </div>
-                                <p>Чистове оздоблення нашого будинку - це бездоганна комбінація естетики, функціональності та якості. Ми використовуємо високоякісні матеріали та сучасні технології, щоб створити простір, який вражає своєю красою та комфортом. Від уважно продуманих деталей до унікальних акцентів - кожен куток будинку втілений з метою створити привабливе та затишне середовище для вас та вашої сім'ї.</p>
                             </div>
+                                <div class="grid-flex">
+                                    <div class="btn-foot ">
+                                        <button class="skin_buttom">
+                                            <p>консультація</p>
+                                            <svg class="svg-btn" xmlns="http://www.w3.org/2000/svg" width="216"
+                                                height="226" viewBox="0 0 216 226" fill="none">
+                                                <path
+                                                    d="M125.007 112.985L125.35 112.621L125.736 112.985L125.35 113.349L125.007 112.985ZM35.0068 113.485H34.5068V112.485H35.0068V113.485ZM112.074 100.121L125.35 112.621L124.664 113.349L111.389 100.849L112.074 100.121ZM125.35 113.349L112.074 125.849L111.389 125.121L124.664 112.621L125.35 113.349ZM125.007 113.485H35.0068V112.485H125.007V113.485Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M3.00582 68.7211C12.8653 45.7195 30.2978 26.7835 52.4071 15.059C74.5165 3.33452 99.9717 -0.472591 124.544 4.27013C149.116 9.01285 171.326 22.0199 187.484 41.1304C203.642 60.2409 212.775 84.3044 213.366 109.323C213.957 134.342 205.97 158.81 190.733 178.662C175.495 198.514 153.924 212.555 129.603 218.453C105.282 224.35 79.6758 221.749 57.0375 211.082C34.3992 200.415 16.0921 182.323 5.15755 159.812"
+                                                    stroke="white" stroke-width="3" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
                         </div>
                     </div>
-                    <div class="mod-block _containerTwo">
-                        <div class="mod-contant object-cont">
-                            <div class="grid-flex object_item">
-                                <img src="./img/house_3.png" alt="mod-house">
-                                <div>
-                                    <h5>Під оздоблення</h5>
-                                </div>
-                                <p>Наше повне оздоблення будинку з меблями - це комфорт і стиль, що забезпечуються уважно підібраними меблями високої якості. Ваш будинок буде готовий до негайного заселення і надасть вам затишок та естетичне задоволення.</p>
-                            </div>
-                            <div class="grid-flex object_item obj-btn">
-                                <div class="btn-mod">
-                                    <button class="skin_buttom">
-                                        <p>Консультація</p>
-                                        <svg class="svg-btn svg-grid mod-svg" xmlns="http://www.w3.org/2000/svg" width="216"
-                                            height="226" viewBox="0 0 216 226" fill="none">
-                                            <path
-                                                d="M125.007 112.985L125.35 112.621L125.736 112.985L125.35 113.349L125.007 112.985ZM35.0068 113.485H34.5068V112.485H35.0068V113.485ZM112.074 100.121L125.35 112.621L124.664 113.349L111.389 100.849L112.074 100.121ZM125.35 113.349L112.074 125.849L111.389 125.121L124.664 112.621L125.35 113.349ZM125.007 113.485H35.0068V112.485H125.007V113.485Z"
-                                                fill="white" />
-                                            <path
-                                                d="M3.00582 68.7211C12.8653 45.7195 30.2978 26.7835 52.4071 15.059C74.5165 3.33452 99.9717 -0.472591 124.544 4.27013C149.116 9.01285 171.326 22.0199 187.484 41.1304C203.642 60.2409 212.775 84.3044 213.366 109.323C213.957 134.342 205.97 158.81 190.733 178.662C175.495 198.514 153.924 212.555 129.603 218.453C105.282 224.35 79.6758 221.749 57.0375 211.082C34.3992 200.415 16.0921 182.323 5.15755 159.812"
-                                                stroke="white" stroke-width="3" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <div class="footer_img">
@@ -398,8 +410,6 @@
                             <div class="foot_tel">
                                 <a href="tel:+380730070888">+38 (073) 007 08 88</a>
                                 <a href="tel:+380930070888">+38 (093) 007 08 88</a>
-                                <!-- <p>+38 (073) 007 08 88</p> -->
-                                <!-- <p>+38 (093) 007 08 88</p> -->
                             </div>
                             <p>м. Одеса, <br> вул. Леонтовича 16а</p>
                             <div class="footer-soc">
@@ -500,6 +510,24 @@
                                         </li>
                                     </ul>
                                 </div>
+                                <p>м. Одеса, <br> вул. Леонтовича 16а</p>
+                            </div>
+                            <div class="foot-nav">
+                                <ul>
+                                    <li>
+                                        <a href="./index.html">Головна</a>
+                                    </li>
+                                    <li>
+                                        <a href="./catalog.html">Каталог</a>
+                                    </li>
+                                    <li>
+                                        <a href="./about-houses.html">Про будинки</a>
+                                    </li>
+                                    <li>
+                                        <a href="./company.html">Про компанію</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="footer_menu">
                             <div class="footer-soc">
@@ -529,20 +557,14 @@
     </div>
     <script>
         window.addEventListener('scroll', function () {
-            // Проверяем, прокручен ли скролл на 200 пикселей и больше
             if (window.scrollY > 2100) {
-                // Применяем стили для случая, когда скролл больше 200 пикселей
                 document.body.style.backgroundColor = '#BEBEBE';
                 document.body.style.color = 'black';
-
-                // Проверяем, прокручен ли скролл на 600 пикселей и больше
                 if (window.scrollY > 3800) {
-                    // Применяем стили для случая, когда скролл больше 600 пикселей
                     document.body.style.backgroundColor = 'black';
                     document.body.style.color = 'white';
                 }
             } else {
-                // Возвращаем исходные стили, если скролл меньше 200 пикселей
                 document.body.style.backgroundColor = 'black';
                 document.body.style.color = 'white';
             }
@@ -550,6 +572,17 @@
         });
 
     </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    
+    <script>
+        function toggleActive(button) {
+        const buttons = document.querySelectorAll('.filter_planning button');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        }   
+    </script>
+    <!-- <script src="./js/swiper.js"></script> -->
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
