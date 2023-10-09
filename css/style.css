@@ -1913,6 +1913,9 @@ label:hover::after{
     display: none;
 }
 /* -------------------- */
+section.slider {
+    margin-top: 200px;
+}
 
 .swiper{
     margin-top: 200px;
