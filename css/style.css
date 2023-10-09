@@ -242,6 +242,7 @@ table {
     position: fixed;
     width: 65%;
     /* width: 79%; */
+
     z-index: 1111;
 }
 
@@ -1063,28 +1064,44 @@ label::after {
     transform: rotate(90deg);
 }
 
+
+
+
+label:hover{
+    background-color: var(--text-color);
+    color: var(--wrap-color);
+    transition: all .7s ease-in;
+}
+label:hover::before,
+label:hover::after{
+    background-color: var(--wrap-color);
+    transition: all .7s ease-out;
+    margin-right: 40px;
+}
+label:hover::before{
+    transform: rotate(-180deg);
+    
+}
+label:hover{
+    transition: all .7s ease-out;
+    padding-left: 70px;
+}
+label:hover::after{
+    transform: rotate(-90deg);
+}
 input[type=checkbox]:checked+label{
     height: 140px;
     background-color: var(--text-color);
     color: var(--wrap-color);
 }
 input[type=checkbox]:checked+label::after {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     background-color: var(--wrap-color);
 }
-
-
-label:hover{
-    background-color: var(--text-color);
-    color: var(--wrap-color);
-    transition: all .4s ease;
-}
-label:hover::before,
-label:hover::after{
+input[type=checkbox]:checked+label::before {
+    transform: rotate(-180deg);
     background-color: var(--wrap-color);
-    transition: all .4s ease;
 }
-
 
 /* ==========footer===== */
 

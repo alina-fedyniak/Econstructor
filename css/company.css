@@ -135,10 +135,15 @@ svg, svg * {
     z-index: 100;
 }
 
-path:hover {
+/* path:hover {
     fill: black;
     cursor: pointer;
-}
+} */
+.map path:hover {
+    fill: black;
+    cursor: pointer;
+} 
+
 
 /*yablunivka*/
 #Yablunivka:hover {
