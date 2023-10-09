@@ -1470,8 +1470,8 @@
         margin-bottom: 45px;
     }
     .planning-block_img {
-        margin-left: -400px;
-        margin-right: -480px;
+        margin-left: -80px;
+        margin-right: -80px;
     }
     .planning-block-filter{
         flex-direction: column;
@@ -1635,6 +1635,13 @@
     }
     .swiper-btn {
         margin-top: 30px;
+    }
+    .block-title {
+        font-size: 35px;
+    }
+    .planning-block_img {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 @media screen and (max-width:440px) {
