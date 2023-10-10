@@ -1,0 +1,27 @@
+.thanks h1 {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    /*width: 575px;*/
+}
+.thanks-2 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.thanks-2 {
+    margin-left: 189px;
+}
+
+.thanks-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks-img-logo img{
+    width: 100%;
+}

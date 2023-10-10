@@ -1,0 +1,38 @@
+#wrapper.not-found {
+    display: block;
+}
+
+.not-found-block {
+    margin-top: 200px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 45px 0;
+}
+
+.not-found-title {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: uppercase;
+    width: 575px;
+    text-align: end;
+}
+
+.notFound {
+    position: relative;
+    margin-bottom: 360px;
+}
+
+.notFound img{
+    position: absolute;
+    top: 56px;
+    width: 100%;
+}
+
+.notFound-btn {
+    display: flex;
+    justify-content: center;
+}
+
+

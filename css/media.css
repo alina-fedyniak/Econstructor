@@ -13,6 +13,7 @@
     ._containerTwo {
         max-width: 980px;
         margin: 0 auto;
+        width: 100%;
     }
     .mod-block{
         display: block;
@@ -867,6 +868,12 @@
     }
     .comparison-part-img img{
         width: 100%;
+    }
+    .notFound {
+        margin-bottom: 150px;
+    }
+    .thanks-2 {
+         margin-left: 0;
     }
 
 }
