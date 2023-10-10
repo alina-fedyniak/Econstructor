@@ -1526,6 +1526,12 @@
     .not-found-block {
         margin-top: 100px;
     }
+    .thanks h1 {
+        font-size: 30px;
+    }
+    .not-found-title {
+        font-size: 30px;
+    }
 
 }
 
@@ -1731,5 +1737,14 @@
     }
     .comparison-title {
         top: 476px;
+    }
+    .thanks h1 {
+        font-size: 25px;
+    }
+    .not-found-title {
+        font-size: 25px;
+    }
+    .thanks-2 p {
+        font-size: 12px;
     }
 }
