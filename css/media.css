@@ -875,6 +875,14 @@
     .thanks-2 {
          margin-left: 0;
     }
+    .puls-2 {
+        bottom: 157px;
+        right: 83px;
+    }
+    .puls-1 {
+        top: 100px;
+        left: 174px;
+    }
 
 }
 /* ============740-340=================== */
@@ -1532,6 +1540,18 @@
     .not-found-title {
         font-size: 30px;
     }
+    .ceramic-2 {
+        top: 127px;
+        left: 123px;
+    }
+    .puls-3 {
+        bottom: 15px;
+        left: 87px;
+    }
+    .ceramic {
+        top: 78px;
+        left: 56px;
+    }
 
 }
 
@@ -1705,6 +1725,14 @@
     .visual-cont>h3:nth-child(2){
         font-size: 26px;
     }
+    .ceramic-2 {
+        top: 293px;
+        left: 243px;
+    }
+    .ceramic-2 {
+        top: 293px;
+        left: 243px;
+    }
 
 }
 
@@ -1746,5 +1774,28 @@
     }
     .thanks-2 p {
         font-size: 12px;
+    }
+    .chipboard {
+        top: 59px;
+        left: 160px;
+    }
+    .ceramic {
+        top: 107px;
+        left: 148px;
+    }
+    .puls-3 {
+        left: 165px;
+    }
+    .ceramic-2 {
+        top: 193px;
+        left: 92px;
+    }
+    .puls-1 {
+        top: 109px;
+        left: 143px;
+    }
+    .puls-2 {
+        bottom: 118px;
+        right: 54px;
     }
 }
