@@ -1,43 +1,43 @@
 // --------scroll-btn-------
-document.addEventListener("DOMContentLoaded", function() {
-    var button = document.querySelector(".scroll-button");
-    var scrollHeight = 740;
-    var isFixed = false;
+// document.addEventListener("DOMContentLoaded", function() {
+//     var button = document.querySelector(".scroll-button");
+//     var scrollHeight = 440;
+//     var isFixed = false;
 
-    function handleScroll() {
-        var windowWidth = window.innerWidth;
+//     function handleScroll() {
+//         var windowWidth = window.innerWidth;
 
-        if (windowWidth >= 740) {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+//         if (windowWidth >= 740) {
+//             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-            if (scrollTop >= scrollHeight && !isFixed) {
-                button.style.top = scrollHeight + "px";
-                isFixed = true;
-            } else if (scrollTop < scrollHeight && isFixed) {
-                button.style.top = "";
-                isFixed = false;
-            }
-        }
-    }
+//             if (scrollTop >= scrollHeight && !isFixed) {
+//                 button.style.top = scrollHeight + "px";
+//                 isFixed = true;
+//             } else if (scrollTop < scrollHeight && isFixed) {
+//                 button.style.top = "";
+//                 isFixed = false;
+//             }
+//         }
+//     }
 
-    var mediaQuery = window.matchMedia("(max-width: 740px)");
+//     var mediaQuery = window.matchMedia("(max-width: 740px)");
 
-    function handleMediaQueryChange(event) {
-        if (event.matches) {
+//     function handleMediaQueryChange(event) {
+//         if (event.matches) {
 
-            window.removeEventListener("scroll", handleScroll);
-            button.style.top = ""; 
-            isFixed = false;
-        } else {
+//             window.removeEventListener("scroll", handleScroll);
+//             button.style.top = ""; 
+//             isFixed = false;
+//         } else {
 
-            window.addEventListener("scroll", handleScroll);
-        }
-    }
+//             window.addEventListener("scroll", handleScroll);
+//         }
+//     }
 
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+//     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    handleMediaQueryChange(mediaQuery);
-});
+//     handleMediaQueryChange(mediaQuery);
+// });
 
 
 
