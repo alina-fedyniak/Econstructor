@@ -15,13 +15,11 @@
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
-    width: 575px;
-    text-align: end;
 }
 
 .notFound {
     position: relative;
-    margin-bottom: 360px;
+    margin-bottom: 304px;
 }
 
 .notFound img{

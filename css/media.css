@@ -1523,6 +1523,9 @@
     .materials-title {
         font-size: 35px;
     }
+    .not-found-block {
+        margin-top: 100px;
+    }
 
 }
 
