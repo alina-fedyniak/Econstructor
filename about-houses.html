@@ -1035,11 +1035,13 @@
 
 </script>
 <script>
-            window.addEventListener('scroll', function () {
-            if (window.scrollY > 11300) {
+    window.addEventListener('scroll', function () {
+        var windowWidth = window.innerWidth;
+        if (windowWidth >= 1700) {
+            if (window.scrollY > 10300) {
                 document.body.style.backgroundColor = '#BEBEBE';
                 document.body.style.color = 'black';
-                if (window.scrollY > 12000) {
+                if (window.scrollY > 11000) {
                     document.body.style.backgroundColor = 'black';
                     document.body.style.color = 'white';
                 }
@@ -1047,7 +1049,57 @@
                 document.body.style.backgroundColor = 'black';
                 document.body.style.color = 'white';
             }
-        });
+        } else if (windowWidth >= 1200) {
+            if (window.scrollY > 10600) {
+                document.body.style.backgroundColor = '#BEBEBE';
+                document.body.style.color = 'black';
+                if (window.scrollY > 11400) {
+                    document.body.style.backgroundColor = 'black';
+                    document.body.style.color = 'white';
+                }
+            } else {
+                document.body.style.backgroundColor = 'black';
+                document.body.style.color = 'white';
+            }
+        } if (windowWidth <= 740) {
+            if (window.scrollY > 10900) {
+                document.body.style.backgroundColor = '#BEBEBE';
+                document.body.style.color = 'black';
+                if (window.scrollY > 11600) {
+                    document.body.style.backgroundColor = 'black';
+                    document.body.style.color = 'white';
+                }
+            } else {
+                document.body.style.backgroundColor = 'black';
+                document.body.style.color = 'white';
+            }
+        } if (windowWidth <= 600) {
+            if (window.scrollY > 10900) {
+                document.body.style.backgroundColor = '#BEBEBE';
+                document.body.style.color = 'black';
+                if (window.scrollY > 11600) {
+                    document.body.style.backgroundColor = 'black';
+                    document.body.style.color = 'white';
+                }
+            } else {
+                document.body.style.backgroundColor = 'black';
+                document.body.style.color = 'white';
+            }
+        }  if (windowWidth <= 400) {
+            if (window.scrollY > 10000) {
+                document.body.style.backgroundColor = '#BEBEBE';
+                document.body.style.color = 'black';
+                if (window.scrollY > 10700) {
+                    document.body.style.backgroundColor = 'black';
+                    document.body.style.color = 'white';
+                }
+            } else {
+                document.body.style.backgroundColor = 'black';
+                document.body.style.color = 'white';
+            }
+        } 
+    });
+
 </script>
 <script src="./js/main.js"></script>
 </body>

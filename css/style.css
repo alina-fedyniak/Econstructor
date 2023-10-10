@@ -780,6 +780,7 @@ table {
     width: 30px;
     height: 1px;
     background-color: white;
+    mix-blend-mode: difference;
 }
 
 .arch-btn {
@@ -856,6 +857,7 @@ table {
     display: flex;
     width: 356px;
     height: 225px;
+    mix-blend-mode: difference;
 }
 
 .grid-connect {
@@ -2050,3 +2052,4 @@ section.slider {
     animation-duration: 1s;
     cursor: pointer;
 }
+
