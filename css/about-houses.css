@@ -334,6 +334,10 @@ img.img-markup {
     display: flex;
 }
 
+/*.comparison-part img {*/
+/*    width: 100%;*/
+/*}*/
+
 .comparison-blk div {
     font-size: 40px;
     font-style: normal;
@@ -446,6 +450,10 @@ swiper-slide img {
 }
 
 /*servis*/
+section.servis-block._containerTwo.services._container {
+    overflow: hidden;
+}
+
 .services-title {
     max-width: 100%;
     font-size: 52px;
