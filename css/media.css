@@ -859,6 +859,15 @@
         width: 100%;
         z-index: 1111;
     }
+    main.main-wrap.main-container {
+        margin-top: 250px;
+    }
+    section._container._containerTwo.company-block-wrap.technology-wrap {
+        padding-top: 190px;
+    }
+    .comparison-part-img img{
+        width: 100%;
+    }
 
 }
 /* ============740-340=================== */
@@ -940,6 +949,7 @@
     }
     .company-main-blk .company-info{
         margin-top: 20px;
+        width: 100%;
     }
     .company-block>div>p {
         margin-top: 45px;
@@ -1485,6 +1495,27 @@
         font-weight: 500;
         line-height: 150%;
     }
+    .technology-wrap .company-title {
+        font-size: 40px;
+    }
+    .frameHouse-list {
+        flex-direction: column;
+    }
+    .frameHouse-part {
+        margin-top: 0;
+    }
+    .comparison-title {
+        top: 783px;
+    }
+    .comparison-blk:first-child {
+        margin-bottom: 45px;
+    }
+    .comparison-wraps {
+        margin-top: 115px;
+    }
+    .materials-title {
+        font-size: 35px;
+    }
 
 }
 
@@ -1522,6 +1553,9 @@
     }
     .header_btn {
         margin-top: 20px;
+    }
+    .aboutPage-title h1 {
+        font-size: 35px;
     }
 }
 @media screen and (max-width:500px){
@@ -1644,11 +1678,18 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .comparison-title {
+        top: 616px;
+    }
+    .technology-wrap .company-title {
+        margin-bottom: 45px;
+    }
 }
 @media screen and (max-width:440px) {
     .visual-cont>h3:nth-child(2){
         font-size: 26px;
     }
+
 }
 
 @media screen and (max-width:400px){
@@ -1674,5 +1715,11 @@
     }
     .footer {
         margin-top: 150px;
+    }
+    .technology-wrap .company-title {
+        font-size: 35px;
+    }
+    .comparison-title {
+        top: 476px;
     }
 }

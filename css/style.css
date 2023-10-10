@@ -888,6 +888,9 @@ table {
 
 
 /* ====================servis-block================= */
+section.servis-block {
+    overflow: hidden;
+}
 .servis-block {
     margin-top: 200px;
 }
