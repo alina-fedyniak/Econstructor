@@ -871,6 +871,9 @@
     .grid-connect {
         grid-template-columns: 1fr;
     }
+    .mod-wrap .skin_buttom {
+        right: -30px;
+    }
 }
 /* ============740-340=================== */
 
