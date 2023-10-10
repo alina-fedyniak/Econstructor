@@ -253,6 +253,7 @@ table {
     flex-direction: column;
     gap: 20px;
     align-content: flex-end;
+    align-items: flex-end;
 }
 
 .header_nav li {
@@ -1480,6 +1481,9 @@ input[type=checkbox]:checked+label::before {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+input{
+    color: #FFF;
 }
 .pop_up_btn{
     margin-left: auto;
