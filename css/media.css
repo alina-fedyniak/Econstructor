@@ -1710,6 +1710,9 @@
     .technology-wrap .company-title {
         margin-bottom: 45px;
     }
+    .notFound-btn {
+        margin-left: -100px;
+    }
 }
 @media screen and (max-width:440px) {
     .visual-cont>h3:nth-child(2){
