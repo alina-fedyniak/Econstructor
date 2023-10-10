@@ -598,7 +598,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ---------------------------------------- -->
                 </section>
                 <!-- ---------------------- -->
                 <section class="media-block">
@@ -732,8 +731,6 @@
                                 <div class="foot_tel">
                                     <a href="tel:+380730070888">+38 (073) 007 08 88</a>
                                     <a href="tel:+380930070888">+38 (093) 007 08 88</a>
-                                    <!-- <p>+38 (073) 007 08 88</p> -->
-                                    <!-- <p>+38 (093) 007 08 88</p> -->
                                 </div>
                                 <p>м. Одеса, <br> вул. Леонтовича 16а</p>
                                 <div class="footer-soc">
@@ -857,12 +854,44 @@
                         </div>
                     </div>
                 </div>
-
             </section>
         </footer>
     </div>
 
-    <script src="./js/color_page.js"></script>
+    <script>
+      window.addEventListener('scroll', function () {
+    // Проверяем, прокручен ли скролл на 200 пикселей и больше
+    if (window.scrollY > 3100) {
+        // Применяем стили для случая, когда скролл больше 200 пикселей
+        document.body.style.backgroundColor = '#BEBEBE';
+        document.body.style.color = 'black';
+
+        // Проверяем, прокручен ли скролл на 600 пикселей и больше
+        if (window.scrollY > 5100) {
+            // Применяем стили для случая, когда скролл больше 600 пикселей
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+        }
+    } else {
+        // Возвращаем исходные стили, если скролл меньше 200 пикселей
+        document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+    }
+    if (window.scrollY > 8500) {
+        // Применяем стили для случая, когда скролл больше 700 пикселей
+        document.body.style.backgroundColor = '#BEBEBE';
+        document.body.style.color = 'black';
+        if (window.scrollY > 9250) {
+            // Применяем стили для случая, когда скролл больше 600 пикселей
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+        }
+    }
+});
+
+
+    </script>
+
     <script src="./js/main.js"></script>
 </body>
 
