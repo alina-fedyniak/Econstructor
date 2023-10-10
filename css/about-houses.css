@@ -259,6 +259,7 @@ img.img-markup {
     align-items: center;
     justify-content: center;
     position: absolute;
+    z-index: 2;
 }
 
 .chipboard {
