@@ -13,6 +13,7 @@
     ._containerTwo {
         max-width: 980px;
         margin: 0 auto;
+        width: 100%;
     }
     .mod-block{
         display: block;
@@ -874,6 +875,12 @@
     .mod-wrap .skin_buttom {
         right: -30px;
     }
+    .notFound {
+        margin-bottom: 150px;
+    }
+    .thanks-2 {
+        margin-left: 0;
+    }
 }
 /* ============740-340=================== */
 
@@ -1518,6 +1525,9 @@
     }
     .materials-title {
         font-size: 35px;
+    }
+    .not-found-block {
+        margin-top: 100px;
     }
 
 }

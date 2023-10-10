@@ -1,5 +1,7 @@
 @import './company.css';
 @import './about-houses.css';
+@import 'not-found.css';
+@import 'thanks.css';
 
 html,
 body,
