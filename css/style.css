@@ -1117,7 +1117,7 @@ input[type=checkbox]:checked+label::before {
 
 .footer{
     position: relative;
-    margin-top: 300px;
+    margin-top: 200px;
     padding-bottom: 59px;
     overflow: hidden;
 }
