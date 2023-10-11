@@ -1,17 +1,14 @@
-
 /* ===================1740-1140================= */
-
 @media screen and (max-width:1740px){
     .img-right {
         width: 100%;
     }
     ._container {
         max-width: 100%;
-        /* padding: 0 30px; */
         box-sizing: border-box;
     }
     ._containerTwo {
-        max-width: 980px;
+        max-width: 900px;
         margin: 0 auto;
         width: 100%;
     }
@@ -324,24 +321,6 @@
     .visual-cont h3{
         margin-bottom: 80px;
     }
-    .frameHouse-container {
-        flex-direction: column-reverse;
-    }
-    .frameHouse-block {
-        margin-left: 0;
-    }
-    .frameHouse-list {
-        display: flex;
-    }
-    .frameHouse-part {
-        margin-top: 95px;
-    }
-    .frameHouse-block p {
-        margin-bottom: 40px;
-    }
-    .frameHouse-block img {
-        width: 100%;
-    }
     .header_nav {
         position: fixed;
         z-index: 1111;
@@ -440,6 +419,45 @@
     .technology-wrap {
         padding-top: 230px;
     }
+    .frameHouse-container {
+        margin-top: 60px;
+        margin-bottom: 172px;
+    }
+    .frameHouse-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .frameHouse-item span {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .frameHouse-item {
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 150%;
+    }
+    .frameHouse-item img {
+        margin-right: 12px;
+        width: 18px;
+    }
+    .frameHouse-block p {
+        font-size: 12px;
+    }
+    .frameHouse-block div {
+        font-size: 27px;
+        margin: -22px 0 59px 24px;
+    }
+    .frameHouse-block {
+        max-width: 592px;
+        margin-left: 0;
+    }
+    .frameHouse-block img {
+        max-width: 592px;
+    }
+    .frameHouse-list {
+        margin-right: 63px;
+        max-width: 339px;
+    }
 
 }
 
@@ -454,6 +472,16 @@
 /* ============1200-720=================== */
 
 @media screen and (max-width:1200px){
+    ._container {
+        max-width: 980px;
+        /* padding: 0 30px; */
+        box-sizing: border-box;
+    }
+    ._containerTwo {
+        max-width: 980px;
+        margin: 0 auto;
+        width: 100%;
+    }
     img.img-markup {
         display: block;
         position: relative;
@@ -466,9 +494,6 @@
         width: 100%;
         top: 0;
         left: 0;
-    }
-    ._container {
-        max-width: 720px;
     }
     ._containerTwo {
         margin: 0 auto;
@@ -889,15 +914,70 @@
         top: 100px;
         left: 174px;
     }
+    .frameHouse-container {
+        flex-direction: column-reverse;
+    }
+    .frameHouse-block {
+        margin-left: 0;
+        max-width: 980px;
+    }
+    .frameHouse-block div {
+        font-size: 50px;
+        margin: -35px 0 80px 20px;
+    }
+    .frameHouse-list {
+        display: flex;
+        max-width: 100%;
+    }
+    .frameHouse-part {
+        margin-top: 95px;
+    }
+    .frameHouse-block p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .frameHouse-block img {
+        max-width: 980px;
+    }
+    .frameHouse-title {
+        font-size: 35px;
+        margin-bottom: 22px;
+    }
+    .frameHouse-part {
+        width: 50%;
+        margin-top: 65px;
+    }
+    .frameHouse-list div:first-child {
+        width: 50%;
+    }
+    .frameHouse-item {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .frameHouse-item span {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .frameHouse-item img {
+        margin-right: 20px;
+        width: 30px;
+    }
+    .frameHouse-container {
+        margin-top: 80px;
+    }
+
 
 }
 /* ============740-340=================== */
 
 
 @media screen and (max-width:740px){
-    ._container {
-        max-width: 340px;
-    }
+    /*._container {*/
+    /*    max-width: 720px;*/
+    /*}*/
+    /*._container {*/
+    /*    max-width: 340px;*/
+    /*}*/
     .title-block_main>p {
         font-size: 16px;
     }
@@ -1517,11 +1597,31 @@
     .technology-wrap .company-title {
         font-size: 40px;
     }
-    .frameHouse-list {
-        flex-direction: column;
+    .frameHouse-block img {
+        max-width: 100%;
+    }
+    .frameHouse-block div {
+        font-size: 38px;
+        margin: -27px 0 30px 20px;
+    }
+    .frameHouse-block p {
+        font-size: 16px;
+    }
+    .frameHouse-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .frameHouse-item span {
+        margin-bottom: 6px;
+    }
+    .frameHouse-item {
+        margin-bottom: 6px;
     }
     .frameHouse-part {
-        margin-top: 0;
+        margin-top: 60px;
+    }
+    .frameHouse-container {
+        margin-bottom: 90px;
     }
     .comparison-title {
         top: 783px;
@@ -1562,6 +1662,9 @@
 
 
 @media screen and (max-width:600px){
+    ._container {
+        max-width: 340px;
+    }
     .filter_wrap button {
         padding: 0px 14px;
     }
@@ -1610,6 +1713,43 @@
     .map-title {
         font-size: 40px;
     }
+    .frameHouse-block div {
+        font-size: 30px;
+        margin: -24px 0 45px 20px;
+    }
+    .frameHouse-title {
+        margin-bottom: 20px;
+    }
+    .frameHouse-list {
+        flex-direction: column;
+    }
+    .frameHouse-list {
+         margin-right: 0;
+    }
+    .frameHouse-item span {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .frameHouse-item  {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .frameHouse-part {
+        margin-top: 0;
+    }
+    .frameHouse-item img {
+        margin-right: 10px;
+        width: 20px;
+    }
+    .frameHouse-list div:first-child {
+         width: 100%;
+    }
+    .frameHouse-list div {
+         width: 100%;
+    }
+    .frameHouse-container {
+        margin-top: 45px;
+    }
 }
 @media screen and (max-width:500px){
     .mod-title {
@@ -1650,7 +1790,6 @@
         padding: 0px 25px;
     }
     .object-block h1{
-        /* text-align: center; */
         font-size: 42px;
     }
     .obj-title-img{
