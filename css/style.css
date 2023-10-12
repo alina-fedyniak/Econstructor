@@ -674,6 +674,7 @@ table {
     width: 70px;
     height: 1px;
     background-color: white;
+    mix-blend-mode: difference;
 }
 
 .company-info p {
