@@ -393,11 +393,15 @@
         left: 212px;
     }
     .comparison-title-1 {
-        font-size: 50px;
+        font-size: 35px;
+        padding: 60px 0 270px 304px;
     }
     .comparison-wrap p {
-        font-size: 18px;
-        width: 330px;
+        font-size: 12px;
+        width: 284px;
+    }
+    .comparison-wrap div:last-child {
+        padding: 60px 0 192px 140px;
     }
     .comparison-wrap {
         justify-content: center;
@@ -812,16 +816,17 @@
     }
     .materials-blk {
         display: flex;
-        flex-direction: column;
-        margin-right: 64px;
+        align-items: flex-start;
+        margin-right: 30px;
     }
     .materials-blk img {
-        margin-right: 0;
-        width: 112px;
+        margin-right: 20px;
+        width: 176px;
     }
     .materials-wrap .title {
-        font-size: 16px;
+        font-size: 25px;
         max-width: 331px;
+        margin-bottom: 15px;
     }
     .materials-wrap p {
         width: 257px;
@@ -870,18 +875,15 @@
         left: 123px;
     }
     .comparison-title-1 {
-        font-size: 38px;
-        font-weight: 600;
+        font-size: 50px;
+        padding: 80px 0 357px 80px;
     }
     .comparison-wrap p {
-        width: 345px;
+        font-size: 18px;
+        width: 330px;
     }
-    .comparison-wrap {
-        justify-content: space-between;
-        padding: 60px 0 145px 0;
-    }
-    .comparison-title {
-        max-width: 494px;
+    .comparison-wrap div:last-child {
+        padding: 80px 0 190px 80px;
     }
     .comparison-blk div {
         font-size: 25px;
@@ -992,6 +994,9 @@
     }
     .frameHouse-container {
         margin-top: 80px;
+    }
+    .materials-wrap {
+        margin: 272px 0 160px 0;
     }
 
 
@@ -1474,14 +1479,15 @@
         left: 243px;
     }
     .comparison-wrap {
-        flex-direction: column;
         padding-top: 45px;
         padding-bottom: 130px;
     }
     .comparison-title-1 {
-        font-size: 30px;
-        margin-bottom: 45px;
-        width: 340px;
+        font-size: 38px;
+        padding: 60px 0 344px 0;
+    }
+    .comparison-wrap div:last-child {
+        padding: 60px 0 145px 15px;
     }
     .comparison-wrap p {
         width: 100%;
@@ -1764,6 +1770,22 @@
     }
     .frameHouse-container {
         margin-top: 45px;
+    }
+    .comparison-wrap {
+        flex-direction: column;
+    }
+    .comparison-title-1 {
+        font-size: 30px;
+        padding: 45px 0 45px 0;
+        border-bottom: none;
+        border-right: none;
+        width: 100%;
+    }
+    .comparison-wrap div:last-child {
+        border-bottom: 1px solid #FFFFFF;
+        border-top: none;
+        width: 100%;
+        padding: 0 0 130px 0
     }
 
 }
