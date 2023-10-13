@@ -1,6 +1,6 @@
 
 /* ===================1740-1140================= */
-@media screen and (min-width: 1200px) and (max-width: 1740px) {
+@media screen and (min-width: 1201px) and (max-width: 1740px) {
     .img-right {
         width: 145%;
     }
@@ -1543,7 +1543,7 @@
     }
     .burger-icon{
         display: block;
-        mix-blend-mode: difference;
+        /* mix-blend-mode: difference; */
     }
     .burger-menu{
         display: block;
