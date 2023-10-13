@@ -320,6 +320,43 @@
     .footer-title>h4 {
         margin-left: 336px;
     }
+    .filter_wrap {
+        max-width: 285px;
+        height: 42px;
+        padding: 5px;
+    }
+    .filter_wrap button {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    .catalog_filter {
+        margin-top: 62px;
+    }
+    .catalog_mr {
+        margin-top: 480px;
+    }
+    .catalog_block {
+        margin-top: 70px;
+    }
+    .mod-contant img {
+        max-width: 285px;
+    }
+    .catalog_filter p {
+        max-width: 285px;
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    .catalog_mode h6{
+        font-size: 12px;
+    }
+    .catalog_mode h6{
+        gap: 12px;
+    }
+    .catalog_mode h6::before {
+        width: 14px;
+        height: 14px;
+    }
+
 }
 @media screen and (max-width:1740px){
     /* .img-right {
@@ -2334,7 +2371,7 @@
 
 @media screen and (max-width:600px){
     .filter_wrap button {
-        padding: 0px 14px;
+        padding: 0px 20px;
     }
     .footer-title>h3 {
         margin-left: 0;
@@ -2384,6 +2421,16 @@
 
 }
 @media screen and (max-width:500px){
+    .catalog_filter p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .catalog_block {
+        margin-top: 270px;
+    }
+    .filter_wrap {
+        margin-bottom: 5px;
+    }
     .header_img {
         top: 0px;
         left: -80%;
@@ -2405,7 +2452,12 @@
         margin-top: 12px;
     }
     .mod-contant {
-        gap: 0;
+        gap: 10px;
+    }
+    .grid-flex h5 a {
+        display: inline-block;
+        max-width: 165px;
+        font-size: 16px;
     }
     .mod-contant>div:nth-child(2) {
         margin-top: 0;
@@ -2493,7 +2545,7 @@
         margin-bottom: 45px;
     }
     .mod-contant>div:nth-child(2) {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     .obj-scheme h6 {
         margin-top: 10px;
@@ -2567,6 +2619,9 @@
     }
     .boorger_btm {
         margin-top: 52px;
+    }
+    .catalog_mr {
+        margin-top: 580px;
     }
 
 }
@@ -2646,5 +2701,14 @@
     .puls-2 {
         bottom: 118px;
         right: 54px;
+    }
+    .servis_main_mob {
+        /* gap: 10px; */
+    }
+    .servis_title_l, .servis_title_r {
+        width: 250px;
+    }
+    .servis_title_l h5, .servis_title_r h5 {
+        font-size: 25px;
     }
 }
