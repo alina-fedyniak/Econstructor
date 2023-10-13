@@ -258,7 +258,7 @@ svg, svg * {
 }
 
 .company-main-blk .company-info {
-    width: 475px;
+    max-width: 475px;
 }
 
 .company-connect-block {

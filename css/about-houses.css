@@ -126,7 +126,7 @@ img.img-markup {
 
 .materials-blk {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     /*margin-bottom: 100px;*/
     opacity: 0.5;
     padding: 50px 0;
@@ -137,6 +137,7 @@ img.img-markup {
 }
 
 .materials-blk img {
+    width: 293px;
     margin-right: 64px;
 }
 
