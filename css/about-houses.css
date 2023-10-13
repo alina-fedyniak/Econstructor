@@ -353,10 +353,14 @@ img.img-markup {
     line-height: 130%;
     text-transform: uppercase;
     max-width: 700px;
+    position: absolute;
+    z-index: 1;
 }
 
 .comparison-part {
     display: flex;
+    margin-left: 537px;
+    position: relative;
 }
 
 /*.comparison-part img {*/

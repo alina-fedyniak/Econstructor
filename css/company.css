@@ -230,6 +230,7 @@ svg, svg * {
     font-size: 52px;
     font-weight: 600;
     line-height: 130%;
+    text-transform: uppercase;
 }
 
 .company-title {
@@ -259,6 +260,8 @@ svg, svg * {
 
 .company-main-blk .company-info {
     max-width: 475px;
+    margin-left: -160px;
+    margin-right: 176px;
 }
 
 .company-connect-block {

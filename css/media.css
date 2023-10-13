@@ -2,7 +2,7 @@
 /* ===================1740-1140================= */
 @media screen and (min-width: 1200px) and (max-width: 1740px) {
     .img-right {
-        width: 145%;
+        width: 100%;
     }
     ._container {
         max-width: 1140px;
@@ -11,7 +11,7 @@
         max-width: 1140px;
     }
     ._containerTwo {
-        max-width: 906px;
+        max-width: 1140px;
     }
     .title-block_main>p {
         font-size: 12px;
@@ -424,13 +424,29 @@
         width: 650px;
         margin-top: -56px;
         margin-left: 30px;
+        font-size: 27px;
+        max-width: 418px;
     }
     .comparison-blk div {
-        font-size: 30px;
+        font-size: 24px;
+        margin-bottom: 24px;
     }
     .comparison-blk ul li {
-        font-size: 18px;
-        margin-bottom: 13px;
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .comparison-blk img {
+        width: 17px;
+        margin-right: 12px;
+    }
+    .comparison-blk:first-child {
+        margin-bottom: 60px;
+    }
+    .comparison-wraps {
+        margin-left: 24px;
+    }
+    .comparison-part {
+        margin-left: 352px;
     }
     .materials-wrap p {
         max-width: 297px;
@@ -481,6 +497,9 @@
     }
     .materials-wrap {
         margin: 160px 0 160px 0;
+    }
+    .comparison-part-img img{
+        max-width: 284px;
     }
 
 }
@@ -1278,33 +1297,6 @@
         top: 409px;
         left: 212px;
     }
-    .comparison-title-1 {
-        font-size: 50px;
-    }
-    .comparison-wrap p {
-        font-size: 18px;
-        width: 330px;
-    }
-    .comparison-wrap {
-        justify-content: center;
-        padding: 80px 0 190px 0;
-    }
-    .comparison-block {
-        flex-direction: column-reverse;
-        align-items: start;
-    }
-    .comparison-title {
-        width: 650px;
-        margin-top: -56px;
-        margin-left: 30px;
-    }
-    .comparison-blk div {
-        font-size: 30px;
-    }
-    .comparison-blk ul li {
-        font-size: 18px;
-        margin-bottom: 13px;
-    }
     .obj-btn{
         display: flex;
         justify-content: flex-end;
@@ -1690,6 +1682,33 @@
     }
     .comparison-title-1 {
         font-size: 50px;
+    }
+    .comparison-wrap p {
+        font-size: 18px;
+        width: 330px;
+    }
+    .comparison-wrap {
+        justify-content: center;
+        padding: 80px 0 190px 0;
+    }
+    .comparison-block {
+        flex-direction: column-reverse;
+        align-items: start;
+        margin-bottom: 150px;
+    }
+    .comparison-title {
+        max-width: 650px;
+        margin-top: -56px;
+        margin-left: 30px;
+        font-size: 50px;
+        margin-bottom: -89px;
+    }
+    .comparison-blk ul li {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .comparison-title-1 {
+        font-size: 50px;
         padding: 80px 0 357px 80px;
     }
     .comparison-wrap p {
@@ -1700,11 +1719,15 @@
         padding: 80px 0 190px 80px;
     }
     .comparison-blk div {
-        font-size: 25px;
-        margin-bottom: 25px;
+        font-size: 35px;
+        margin-bottom: 40px;
     }
-    .comparison-blk ul li {
-        margin-bottom: 8px;
+    .comparison-blk img {
+        width: 30px;
+        margin-right: 20px;
+    }
+    .comparison-blk:first-child {
+        margin-bottom: 80px;
     }
     .mod-wrap {
         width: 100%;
@@ -1736,7 +1759,10 @@
         padding-top: 190px;
     }
     .comparison-part-img img{
-        width: 100%;
+        max-width: 468px;
+    }
+    .comparison-part {
+        margin-left: 0;
     }
     .grid-connect {
         grid-template-columns: 1fr;
@@ -2324,28 +2350,34 @@
     .comparison-block {
         flex-direction: column;
     }
-    .comparison-part {
-        flex-direction: column;
-    }
     .comparison-block {
         position: relative;
     }
     .comparison-title {
-        font-size: 30px;
-        width: 320px;
+        font-size: 38px;
+        max-width: 490px;
         position: absolute;
         z-index: 1;
-        top: 855px;
+        top: 569px;
+        margin-left: 20px;
     }
     .comparison-wraps {
-        margin-left: 0;
-        margin-top: 143px;
+        margin-left: 30px;
+        margin-top: 0;
     }
     .comparison-blk div {
         margin-bottom: 20px;
+        font-size: 25px;
     }
     .comparison-blk ul li {
+        font-size: 17px;
         margin-bottom: 5px;
+    }
+    .comparison-blk:first-child {
+        margin-bottom: 30px;
+    }
+    .comparison-part-img img {
+        max-width: 345px;
     }
     .mod-wrap {
         width: 100%;
@@ -2470,15 +2502,6 @@
     }
     .frameHouse-container {
         margin-bottom: 90px;
-    }
-    .comparison-title {
-        top: 783px;
-    }
-    .comparison-blk:first-child {
-        margin-bottom: 45px;
-    }
-    .comparison-wraps {
-        margin-top: 115px;
     }
     .materials-title {
         font-size: 35px;
@@ -2856,6 +2879,7 @@
     .technology-img img {
         max-height: 257px;
         object-fit: cover;
+        min-width: 100%;
     }
     .materials-wrap p {
         font-size: 14px;
@@ -2874,6 +2898,49 @@
     }
     .info-hor-wrap {
         margin-top: 37px;
+    }
+    .comparison-part {
+        flex-direction: column;
+        width: 100%;
+    }
+    .comparison-part-img img {
+        min-width: 100%;
+        max-height: 267px;
+        object-fit: cover;
+    }
+    .comparison-wraps {
+        margin-left: 0;
+        margin-top: 95px;
+    }
+    .comparison-title {
+        font-size: 30px;
+        top: 272px;
+    }
+    .comparison-block {
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+    .comparison-blk ul li {
+        font-size: 16px;
+    }
+    .comparison-blk img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .comparison-blk:first-child {
+        margin-bottom: 45px;
+    }
+    .swiper-slide {
+        min-width: 100%;
+    }
+    .swiper-slide.swiper-slide-prev {
+        min-width: 100%;
+    }
+    .swiper-slide.swiper-slide-active {
+        min-width: 100%;
+    }
+    .swiper-slide.swiper-slide-next {
+        min-width: 100%;
     }
 
 }
