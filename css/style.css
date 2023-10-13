@@ -1600,6 +1600,35 @@ input{
     border-radius: 60px;
     color: var(--text-color);
 }
+.catalog_mode h6{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.catalog_mode h6::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url('../img/full-scr.svg') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    mix-blend-mode: difference;
+}
+.grid-flex>a:last-child{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.grid-flex>a:last-child:after{
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 7px;
+    background: url('/img/catalog/catalog-arrow.svg');
+    background-repeat: no-repeat;
+}
 
 /* =================contact====================== */
 
