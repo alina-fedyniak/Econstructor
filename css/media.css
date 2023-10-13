@@ -36,8 +36,12 @@
         margin-top: 75px;
         margin-bottom: 120px;
     }
+    .mod-wrap {
+        max-width: 285px;
+    }
     .mod-contant>div:nth-child(2) {
         margin-top: 60px;
+        max-width: 285px;
     }
     .mod-title {
         margin-top: 60px;
@@ -70,6 +74,7 @@
     }
     .grid-flex {
         gap: 20px;
+        max-width: 285px;
     }
     .mod-block a:not(:first-child) {
         font-size: 10px;
@@ -84,11 +89,31 @@
     .parallax-text {
         font-size: 140px;
     }
+    .block-part {
+        margin-top: 0;
+    }
+    .block-part h5 {
+        font-size: 18px;
+        margin: 17px 0;
+    }
+    .block-part p {
+        font-size: 10px;
+    }
+    .block-part .btn-foot {
+        margin-top: 56px;
+    }
+    .block-part .skin_buttom {
+        right: -40px;
+    }
+    .block-part img {
+        margin-top: 56px;
+    }
     .benefits-block {
-        margin-top: 155px;
+        margin-top: 119px;
     }
     .benefits-block h2 {
         margin-bottom: 60px;
+        font-size: 32px;
     }
     .benefits-block>.grid-block{
         max-width: 594px;
@@ -361,6 +386,9 @@
     .catalog_mode h6::before {
         width: 14px;
         height: 14px;
+    }
+    .catalog_mode>div{
+        max-width: 285px;
     }
     .frameHouse-container {
         margin-top: 60px;
@@ -936,6 +964,9 @@
     .skin_buttom>p {
         font-size: 16px;
     }
+    .block-part {
+         margin-top: 0;
+    }
     .mod-title{
         max-width: 100%;
         margin-bottom: 80px;
@@ -1374,6 +1405,13 @@
     }
     .mod-block h3 {
         font-size: 40px;
+    }
+    .block-title {
+        font-size: 60px;
+    }
+    .block-part h5 {
+        margin: 30px 0;
+        font-size: 30px;
     }
     .mod-title {
         margin-bottom: 60px;
@@ -1896,12 +1934,16 @@
     }
     .mod-block h3 {
         font-size: 35px;
+        max-width: 197px;
+    }
+    .block-title {
+        font-size: 40px;
     }
     .mod-title {
         margin-bottom: 45px;
     }
-    .mod-contant {
-        flex-direction: column;
+    .block-part img {
+        margin-top: 80px;
     }
     .mod-block h6 {
         font-size: 16px;
@@ -1929,7 +1971,7 @@
         margin-top: 168px;
     }
     .benefits-block h2 {
-        margin-bottom: 45px;
+        margin-bottom: 0;
     }
     .benefits__main {
         gap: 20px;
@@ -2396,6 +2438,7 @@
     }
     .mod-wrap {
         width: 100%;
+        max-width: 345px;
     }
     .object_item {
         max-width: 100%;
@@ -2954,18 +2997,30 @@
     .comparison-blk:first-child {
         margin-bottom: 45px;
     }
-    .swiper-slide {
-        min-width: 100%;
+    .mod-contant.block-part {
+        flex-direction: column;
     }
-    .swiper-slide.swiper-slide-prev {
-        min-width: 100%;
+    .benefits-block {
+         margin-top: 130px;
+     }
+    .block-part img {
+        margin-top: 45px;
     }
-    .swiper-slide.swiper-slide-active {
-        min-width: 100%;
+    .block-part h5 {
+        margin: 20px 0;
+        font-size: 20px;
     }
-    .swiper-slide.swiper-slide-next {
-        min-width: 100%;
+    .grid-flex {
+         margin-bottom: 0;
     }
+    .mod-wrap .skin_buttom {
+        right: -68px;
+        top: -161px;
+    }
+    .mod-block h3 {
+        font-size: 30px;
+    }
+
 
 }
 

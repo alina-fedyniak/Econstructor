@@ -359,7 +359,7 @@ table {
 /* =================mod-block=================== */
 .mod-block{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     max-width: 100%;
     gap: 40px;
 }
