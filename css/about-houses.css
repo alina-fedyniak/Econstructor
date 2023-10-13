@@ -70,7 +70,7 @@ img.img-markup {
 }
 
 .img-right {
-    width: 100%;
+    width: 145%;
     height: inherit;
 }
 
@@ -107,6 +107,15 @@ img.img-markup {
     max-width: 475px;
 }
 
+.materials-wrap .title:before {
+    float: left;
+    display: block;
+    content: counter(item) ". ";
+    /*counter-increment: item;*/
+    font-size: 20px;
+    margin-right: 4px;
+}
+
 .materials-wrap p {
     font-size: 16px;
     font-style: normal;
@@ -117,16 +126,18 @@ img.img-markup {
 
 .materials-blk {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     /*margin-bottom: 100px;*/
     opacity: 0.5;
     padding: 50px 0;
+    counter-increment: item;
 }
 .materials-blk.apear {
     opacity: 1;
 }
 
 .materials-blk img {
+    width: 293px;
     margin-right: 64px;
 }
 
@@ -288,15 +299,24 @@ img.img-markup {
 }
 
 /*comparison-wrap*/
+._container.comparison-wrap {
+    max-width: 1920px;
+}
+
 .comparison-container {
-    border: 1px solid grey;
     margin-bottom: 100px;
 }
 
 .comparison-wrap {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 320px 0;
+}
+
+.comparison-wrap div:last-child {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    width: 50%;
+    padding: 100px 0 320px 190px;
 }
 
 .comparison-title-1 {
@@ -305,7 +325,11 @@ img.img-markup {
     font-weight: 600;
     line-height: 130%;
     text-transform: uppercase;
-    width: 716px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    width: 50%;
+    padding: 100px 88px 320px 120px;
 }
 
 .comparison-wrap p {
@@ -389,7 +413,8 @@ img.img-markup {
 .frameHouse-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    line-height: 150%;
 }
 
 .frameHouse-item span {

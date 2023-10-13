@@ -167,7 +167,7 @@ table {
     max-width: 1920px;
     margin: 0 auto;
     min-height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 ._container {
     max-width: 1680px;
@@ -1052,7 +1052,7 @@ label span{
 }
 
 input:checked~.tab-content {
-    height: 185px;
+    height: auto;
     padding: 10px 40px 40px 40px;
 }
 
@@ -1118,7 +1118,7 @@ input[type=checkbox]:checked+label::before {
 
 .footer{
     position: relative;
-    margin-top: 300px;
+    margin-top: 200px;
     padding-bottom: 59px;
     overflow: hidden;
 }

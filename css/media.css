@@ -1,6 +1,9 @@
 
 /* ===================1740-1140================= */
 @media screen and (min-width: 1200px) and (max-width: 1740px) {
+    .img-right {
+        width: 145%;
+    }
     ._container {
         max-width: 1140px;
     }
@@ -251,6 +254,9 @@
     label:hover::after {
         margin-right: 20px;
     }
+    .footer {
+        margin-top: 183px;
+    }
     .footer-main {
         max-width: 594px;
         /* margin-top: 119px; */
@@ -356,11 +362,131 @@
         width: 14px;
         height: 14px;
     }
+    .frameHouse-container {
+        margin-top: 60px;
+        margin-bottom: 172px;
+    }
+    .frameHouse-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .frameHouse-item span {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .frameHouse-item {
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 150%;
+    }
+    .frameHouse-item img {
+        margin-right: 12px;
+        width: 18px;
+    }
+    .frameHouse-block p {
+        font-size: 12px;
+    }
+    .frameHouse-block div {
+        font-size: 27px;
+        margin: -22px 0 59px 24px;
+    }
+    .frameHouse-block {
+        max-width: 592px;
+        margin-left: 0;
+    }
+    .frameHouse-block img {
+        max-width: 592px;
+    }
+    .frameHouse-list {
+        margin-right: 63px;
+        max-width: 339px;
+    }
+    .comparison-title-1 {
+        font-size: 35px;
+        padding: 60px 0 270px 304px;
+    }
+    .comparison-wrap p {
+        font-size: 12px;
+        width: 284px;
+    }
+    .comparison-wrap div:last-child {
+        padding: 60px 0 192px 140px;
+    }
+    .comparison-wrap {
+        justify-content: center;
+        padding: 80px 0 190px 0;
+    }
+    .comparison-block {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .comparison-title {
+        width: 650px;
+        margin-top: -56px;
+        margin-left: 30px;
+    }
+    .comparison-blk div {
+        font-size: 30px;
+    }
+    .comparison-blk ul li {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .materials-wrap p {
+        max-width: 297px;
+    }
+    .materials-blk img {
+        margin-right: 44px;
+        width: 175px;
+    }
+    .materials-wrap p {
+        max-width: 297px;
+        font-size: 10px;
+    }
+    .materials-wrap .title {
+        font-size: 24px;
+        line-height: 150%;
+        max-width: 331px;
+        margin-bottom: 18px;
+    }
+    .materials-blk {
+        padding: 40px 0;
+    }
+    .technology-wrap .company-title {
+        font-size: 32px;
+    }
+    .technology-wrap .company-text {
+        font-size: 12px;
+        max-width: 592px;
+    }
+    .materials-title {
+        margin-bottom: 112px;
+    }
+    .decorWall-block div {
+        font-size: 27px;
+        max-width: 308px;
+    }
+    .decorWall-block p {
+        font-size: 10px;
+        margin-top: 170px;
+    }
+    .technology-blk .company-info p {
+        font-size: 24px;
+    }
+    .technology-img img {
+        max-width: 284px;
+    }
+    .technology-img {
+        margin-top: 266px;
+    }
+    .materials-wrap {
+        margin: 160px 0 160px 0;
+    }
 
 }
 @media screen and (max-width:1740px){
     /* .img-right {
-        width: 100%;
+        width: 145%;
     }
     ._container {
         max-width: 100%;
@@ -546,6 +672,9 @@
     label {
         font-size: 35px;
     }
+    .footer {
+        margin-top: 183px;
+    }
     .footer-main {
         max-width: 645px;
     }
@@ -679,43 +808,11 @@
     .visual-cont h3{
         margin-bottom: 80px;
     }
-    .frameHouse-container {
-        flex-direction: column-reverse;
-    }
-    .frameHouse-block {
-        margin-left: 0;
-    }
-    .frameHouse-list {
-        display: flex;
-    }
-    .frameHouse-part {
-        margin-top: 95px;
-    }
-    .frameHouse-block p {
-        margin-bottom: 40px;
-    }
-    .frameHouse-block img {
-        width: 100%;
-    }
     .header_nav {
         position: fixed;
         z-index: 1111;
     }
-    .materials-blk img {
-        margin-right: 44px;
-        width: 219px;
-    }
-    .materials-wrap p {
-        max-width: 297px;
-    }
-    .materials-wrap .title {
-        font-size: 35px;
-        line-height: 150%;
-        max-width: 331px;
-    }
-    .materials-blk {
-        padding: 40px 0;
-    }
+
     .decorWall-block div {
         font-size: 50px;
     }
@@ -746,33 +843,7 @@
         top: 409px;
         left: 212px;
     }
-    .comparison-title-1 {
-        font-size: 50px;
-    }
-    .comparison-wrap p {
-        font-size: 18px;
-        width: 330px;
-    }
-    .comparison-wrap {
-        justify-content: center;
-        padding: 80px 0 190px 0;
-    }
-    .comparison-block {
-        flex-direction: column-reverse;
-        align-items: start;
-    }
-    .comparison-title {
-        width: 650px;
-        margin-top: -56px;
-        margin-left: 30px;
-    }
-    .comparison-blk div {
-        font-size: 30px;
-    }
-    .comparison-blk ul li {
-        font-size: 18px;
-        margin-bottom: 13px;
-    }
+
     .obj-btn{
         display: flex;
         justify-content: flex-end;
@@ -1166,14 +1237,16 @@
     }
     .materials-wrap p {
         max-width: 297px;
+        font-size: 16px;
     }
     .materials-wrap .title {
         font-size: 35px;
         line-height: 150%;
         max-width: 331px;
+        margin-bottom: 30px;
     }
     .materials-blk {
-        padding: 40px 0;
+        padding: 0 0 40px 0;
     }
     .decorWall-block div {
         font-size: 50px;
@@ -1270,9 +1343,6 @@
         width: 100%;
         top: 0;
         left: 0;
-    }
-    ._container {
-        max-width: 720px;
     }
     ._containerTwo {
         margin: 0 auto;
@@ -1437,6 +1507,9 @@
     label {
         font-size: 25px;
     }
+    .footer {
+        margin-top: 190px;
+    }
     .footer-main {
         max-width: 645px;
     }
@@ -1559,32 +1632,24 @@
         width: 100%;
         z-index: 1111;
     }
-
-    .info-hor-wrap {
-        display: flex;
-        overflow-x: scroll;
-    }
     .materials-blk {
         display: flex;
-        flex-direction: column;
-        margin-right: 64px;
+        align-items: flex-start;
+        margin-right: 30px;
     }
     .materials-blk img {
-        margin-right: 0;
-        width: 112px;
-    }
-    .materials-wrap .title {
-        font-size: 16px;
-        max-width: 331px;
+        margin-right: 20px;
+        width: 176px;
     }
     .materials-wrap p {
         width: 257px;
     }
-    .materials-slides {
-        flex-direction: column-reverse;
-    }
     .decorWall-block div {
         font-size: 38px;
+    }
+    .decorWall-block p {
+        font-size: 16px;
+        margin-top: 250px;
     }
     .pop_item_2 {
         top: 36%;
@@ -1624,18 +1689,15 @@
         left: 123px;
     }
     .comparison-title-1 {
-        font-size: 38px;
-        font-weight: 600;
+        font-size: 50px;
+        padding: 80px 0 357px 80px;
     }
     .comparison-wrap p {
-        width: 345px;
+        font-size: 18px;
+        width: 330px;
     }
-    .comparison-wrap {
-        justify-content: space-between;
-        padding: 60px 0 145px 0;
-    }
-    .comparison-title {
-        max-width: 494px;
+    .comparison-wrap div:last-child {
+        padding: 80px 0 190px 80px;
     }
     .comparison-blk div {
         font-size: 25px;
@@ -1696,8 +1758,75 @@
         top: 100px;
         left: 174px;
     }
-    /* ======================= */
-    
+    .frameHouse-container {
+        flex-direction: column-reverse;
+    }
+    .frameHouse-block {
+        margin-left: 0;
+        max-width: 980px;
+    }
+    .frameHouse-block div {
+        font-size: 50px;
+        margin: -35px 0 80px 20px;
+    }
+    .frameHouse-list {
+        display: flex;
+        max-width: 100%;
+    }
+    .frameHouse-part {
+        margin-top: 95px;
+    }
+    .frameHouse-block p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .frameHouse-block img {
+        max-width: 980px;
+    }
+    .frameHouse-title {
+        font-size: 35px;
+        margin-bottom: 22px;
+    }
+    .frameHouse-part {
+        width: 50%;
+        margin-top: 65px;
+    }
+    .frameHouse-list div:first-child {
+        width: 50%;
+    }
+    .frameHouse-item {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .frameHouse-item span {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .frameHouse-item img {
+        margin-right: 20px;
+        width: 30px;
+    }
+    .frameHouse-container {
+        margin-top: 80px;
+    }
+    .materials-wrap {
+        margin: 190px 0 160px 0;
+    }
+    .technology-wrap .company-title {
+        font-size: 60px;
+    }
+    .technology-wrap .company-text {
+        font-size: 18px;
+        max-width: 979px;
+    }
+    .materials-title {
+        margin-bottom: 107px;
+    }
+    .technology-img img {
+        /*max-width: 100%;*/
+        max-width: 470px;
+    }
+
 
 }
 /* ============740-340=================== */
@@ -1773,9 +1902,6 @@
     }
     .technology-wrap .company-blk-title {
         display: block;
-    }
-    .company-main-blk {
-        flex-direction: column-reverse;
     }
     .company-main-blk .company-info{
         margin-top: 20px;
@@ -1983,7 +2109,7 @@
         padding: 0 80px;
     }
     .footer {
-        margin-top: 176px;
+        margin-top: 145px;
     }
     .form-btn {
         left: 0;
@@ -2021,14 +2147,8 @@
     .footer-soc {
         margin-top: 0;
     }
-    .footer {
-        margin-top: 0;
-    }
     .footer_mob{
         display: block;
-    }
-    .footer {
-        margin-top: 300px;
     }
     .footer-title>h3 {
         margin-left: 15px;
@@ -2117,9 +2237,9 @@
     .technology-wrap .company-text {
         width: 100%;
     }
-    .technology-blk {
-        flex-wrap: wrap;
-    }
+    /*.technology-blk {*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
     .technology-wrap .company-text {
         display: block;
         position: initial;
@@ -2127,6 +2247,7 @@
     }
     .technology-img {
         margin-top: 0;
+        /*margin-top: 356px;*/
         margin-left: 0;
     }
     .technology-blk .company-info p {
@@ -2158,7 +2279,7 @@
         justify-content: center;
     }
     .materials-wrap {
-        margin: 272px 0 130px 0;
+        margin: 145px 0 130px 0;
     }
     .decorWall-block p {
         margin-bottom: 0;
@@ -2187,14 +2308,15 @@
         left: 243px;
     }
     .comparison-wrap {
-        flex-direction: column;
         padding-top: 45px;
         padding-bottom: 130px;
     }
     .comparison-title-1 {
-        font-size: 30px;
-        margin-bottom: 45px;
-        width: 340px;
+        font-size: 38px;
+        padding: 60px 0 344px 0;
+    }
+    .comparison-wrap div:last-child {
+        padding: 60px 0 145px 15px;
     }
     .comparison-wrap p {
         width: 100%;
@@ -2320,12 +2442,34 @@
     }
     .technology-wrap .company-title {
         font-size: 40px;
+        max-width: 387px;
+        margin-bottom: 60px;
     }
-    .frameHouse-list {
-        flex-direction: column;
+    .frameHouse-block img {
+        max-width: 100%;
+    }
+    .frameHouse-block div {
+        font-size: 38px;
+        margin: -27px 0 30px 20px;
+    }
+    .frameHouse-block p {
+        font-size: 16px;
+    }
+    .frameHouse-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .frameHouse-item span {
+        margin-bottom: 6px;
+    }
+    .frameHouse-item {
+        margin-bottom: 6px;
     }
     .frameHouse-part {
-        margin-top: 0;
+        margin-top: 60px;
+    }
+    .frameHouse-container {
+        margin-bottom: 90px;
     }
     .comparison-title {
         top: 783px;
@@ -2338,6 +2482,7 @@
     }
     .materials-title {
         font-size: 35px;
+        margin-bottom: 30px;
     }
     .not-found-block {
         margin-top: 100px;
@@ -2364,6 +2509,22 @@
         display: flex;
         align-items: center;
         gap: 10px;
+    }
+    .technology-img img {
+        max-width: 345px;
+    }
+    .materials-wrap .title {
+        font-size: 25px;
+        max-width: 331px;
+        margin-bottom: 15px;
+    }
+    .materials-slides {
+        flex-direction: column-reverse;
+    }
+    .info-hor-wrap {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 40px;
     }
 }
 
@@ -2417,6 +2578,59 @@
     }
     .map-title {
         font-size: 40px;
+    }
+    .frameHouse-block div {
+        font-size: 30px;
+        margin: -24px 0 45px 20px;
+    }
+    .frameHouse-title {
+        margin-bottom: 20px;
+    }
+    .frameHouse-list {
+        flex-direction: column;
+    }
+    .frameHouse-list {
+        margin-right: 0;
+    }
+    .frameHouse-item span {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .frameHouse-item  {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .frameHouse-part {
+        margin-top: 0;
+    }
+    .frameHouse-item img {
+        margin-right: 10px;
+        width: 20px;
+    }
+    .frameHouse-list div:first-child {
+        width: 100%;
+    }
+    .frameHouse-list div {
+        width: 100%;
+    }
+    .frameHouse-container {
+        margin-top: 45px;
+    }
+    .comparison-wrap {
+        flex-direction: column;
+    }
+    .comparison-title-1 {
+        font-size: 30px;
+        padding: 45px 0 45px 0;
+        border-bottom: none;
+        border-right: none;
+        width: 100%;
+    }
+    .comparison-wrap div:last-child {
+        border-bottom: 1px solid #FFFFFF;
+        border-top: none;
+        width: 100%;
+        padding: 0 0 130px 0
     }
 
 }
@@ -2500,7 +2714,6 @@
         padding: 0px 25px;
     }
     .object-block h1{
-        /* text-align: center; */
         font-size: 42px;
     }
     .obj-title-img{
@@ -2602,7 +2815,7 @@
         width: 100%;
         height: 165px;
     }
-    .servis_title_l h5, 
+    .servis_title_l h5,
     .servis_title_r h5 {
         margin-top: -25px;
     }
@@ -2637,6 +2850,31 @@
         top: 293px;
         left: 243px;
     }
+    .company-main-blk {
+        flex-direction: column-reverse;
+    }
+    .technology-img img {
+        max-height: 257px;
+        object-fit: cover;
+    }
+    .materials-wrap p {
+        font-size: 14px;
+    }
+    .materials-wrap .title {
+        font-size: 16px;
+        max-width: 331px;
+        margin-bottom: 10px;
+    }
+    .materials-blk img {
+        width: 112px;
+        margin-bottom: 20px;
+    }
+    .materials-blk {
+        flex-direction: column;
+    }
+    .info-hor-wrap {
+        margin-top: 37px;
+    }
 
 }
 
@@ -2662,10 +2900,13 @@
         max-width: 100px;
     }
     .footer {
-        margin-top: 150px;
+        margin-top: 130px;
     }
     .technology-wrap .company-title {
         font-size: 35px;
+    }
+    .technology-wrap .company-text {
+        font-size: 14px;
     }
     .comparison-title {
         top: 476px;
@@ -2710,5 +2951,14 @@
     }
     .servis_title_l h5, .servis_title_r h5 {
         font-size: 25px;
+    }
+    .materials-wrap {
+        margin: 130px 0 130px 0;
+    }
+    .decorWall-block p {
+        font-size: 14px;
+    }
+    .technology-img {
+        margin-top: 0;
     }
 }
