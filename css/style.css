@@ -1633,7 +1633,18 @@ input{
 /* =================contact====================== */
 
 .contact_title_block{
+    margin-top: 103px;
     position: relative;
+
+}
+.contact_title_block::after{
+    /* content: ''; */
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* max-width: 100%; */
+    /* height: 3px; */
+    /* background-color: #FFF; */
 
 }
 .contact_title_block h1{

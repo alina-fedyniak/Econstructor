@@ -498,6 +498,9 @@
     .materials-wrap {
         margin: 160px 0 160px 0;
     }
+    .contact_title_block {
+        margin-top: 80px;
+    }
     .comparison-part-img img{
         max-width: 284px;
     }
@@ -903,11 +906,12 @@
         width: 100%;
     }
     ._container {
-        /* max-width: 100%; */
+        padding: 0 25px;
+        max-width: 720px;
         /* box-sizing: border-box; */
     }
     ._containerTwo {
-        max-width: 980px;
+        max-width: 720px;
         /* margin: 0 auto; */
         /* width: 100%; */
     }
@@ -1044,10 +1048,7 @@
         grid-template-columns: 1fr 1fr;
         max-width: 591px;
     }
-    .connect-form input {
-        width: 471px;
-        margin-left: auto;
-    }
+
     .company-block {
         margin-top: 200px;
     }
@@ -1852,8 +1853,24 @@
         /*max-width: 100%;*/
         max-width: 470px;
     }
-
-
+    .contact_title_block {
+        margin-top: 60px;
+    }
+    .connect-form input {
+        width: 471px;
+        margin-left: auto;
+    }
+    .form-btn {
+        width: 240px;
+        left: 100%;
+        transform: translate(-100%);
+    }
+    .connect-block button {
+        width: 240px;
+    }
+    .catalog_block {
+        margin-top: 195px;
+    }
 }
 /* ============740-340=================== */
 
@@ -2137,9 +2154,7 @@
     .footer {
         margin-top: 145px;
     }
-    .form-btn {
-        left: 0;
-    }
+
     .filter_wrap{
         max-width: 590px;
     }
@@ -2549,6 +2564,12 @@
         overflow-x: scroll;
         margin-top: 40px;
     }
+    .contact_title_block {
+        margin-top: 45px;
+    }
+    .grid-connect {
+        flex-direction: column-reverse;
+    }
 }
 
 
@@ -2655,6 +2676,9 @@
         width: 100%;
         padding: 0 0 130px 0
     }
+    .connect-form input {
+        width: 340px;
+    }
 
 }
 @media screen and (max-width:500px){
@@ -2674,7 +2698,7 @@
     }
     .header_img img {
         height: 800px;
-        max-width: 143%;
+        max-width: 100%;
     }
     .main{
         margin-top: 320px;
@@ -3027,5 +3051,22 @@
     }
     .technology-img {
         margin-top: 0;
+    }
+    label p {
+        font-size: 25px;
+    }
+    label {
+        padding: 30px 5px;
+    }
+    .connect-form input {
+        width: auto;
+        /* max-width: 100%; */
+        margin-left: 0;
+    }
+    .form-btn {
+        /* width: 230px; */
+    }
+    .connect-block button {
+        width: 230px;
     }
 }
