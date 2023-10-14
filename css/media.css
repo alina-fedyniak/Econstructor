@@ -589,6 +589,33 @@
     .socProject-title {
         max-width: 300px;
     }
+    .socProject-blk-title {
+        font-size: 27px;
+        margin: -45px 0 25px 35px;
+    }
+    .map-title {
+        font-size: 27px;
+        max-width: 350px;
+        margin-bottom: -40px;
+    }
+    svg, svg * {
+        max-width: 584px;
+    }
+    .map-text-blk p {
+        max-width: 285px;
+        font-size: 12px;
+    }
+    .map-text-blk {
+        margin-left: 24px;
+        margin-top: 78px;
+    }
+    .map-text-blk ul {
+        margin-top: 24px;
+    }
+    .map-text-blk li {
+        font-size: 10px;
+        margin-top: 5px;
+    }
 
 }
 @media screen and (max-width:1740px){
