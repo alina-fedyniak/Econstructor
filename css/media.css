@@ -36,6 +36,14 @@
         margin-top: 75px;
         margin-bottom: 120px;
     }
+    .sub-header div {
+        font-size: 32px;
+    }
+    .sub-header p {
+        font-size: 12px;
+        margin: 100px 0 0 35px;
+        max-width: 594px;
+    }
     .mod-wrap {
         max-width: 285px;
     }
@@ -156,6 +164,25 @@
     }
     .company-info {
         gap: 30px;
+    }
+    .company-title {
+        font-size: 27px;
+        margin-bottom: 60px;
+    }
+    .company-text {
+        font-size: 10px;
+        max-width: 285px;
+    }
+    .company-main-blk .company-info {
+        max-width: 475px;
+        margin-left: -160px;
+        margin-right: 125px;
+    }
+    .company-main-blk img {
+        max-width: 282px;
+    }
+    .company-blk-title {
+        max-width: 436px;
     }
     .architects-block {
         margin-top: 120px;
@@ -531,6 +558,36 @@
     }
     .comparison-part-img img{
         max-width: 284px;
+    }
+    .socProject-wrap {
+        margin: 120px 0 163px 0
+    }
+    .socProject-title {
+        font-size: 27px;
+    }
+    .socProject-blk img {
+        max-width: 594px;
+        margin: -18px 0 25px 24px;
+    }
+    .socProject-text div:first-child p:first-child {
+        font-size: 12px;
+        max-width: 285px;
+        margin-bottom: 25px;
+    }
+    .socProject-text div:last-child {
+        max-width: 282px;
+    }
+    .socProject-text div {
+        max-width: 282px;
+    }
+    .socProject-text div:last-child p {
+        margin-bottom: 7px;
+    }
+    .socProject-text div:last-child a {
+        margin-left: 50%;
+    }
+    .socProject-title {
+        max-width: 300px;
     }
 
 }
