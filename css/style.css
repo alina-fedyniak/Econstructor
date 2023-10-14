@@ -2108,3 +2108,9 @@ section.slider {
     cursor: pointer;
 }
 
+
+
+/* --------------about-house------- */
+.technology-wrap {
+    max-width: 1680px;
+}
