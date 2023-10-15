@@ -83,6 +83,7 @@
     .grid-flex {
         gap: 20px;
         max-width: 285px;
+        margin-bottom: 56px;
     }
     .mod-block a:not(:first-child) {
         font-size: 10px;
@@ -121,7 +122,7 @@
     }
     .benefits-block h2 {
         margin-bottom: 60px;
-        font-size: 32px;
+        /*font-size: 32px;*/
     }
     .benefits-block>.grid-block{
         max-width: 594px;
@@ -1993,6 +1994,9 @@
     .catalog_block {
         margin-top: 195px;
     }
+    .grid-flex {
+        margin-bottom: 80px;
+    }
 }
 /* ============740-340=================== */
 
@@ -3095,7 +3099,16 @@
         font-size: 20px;
     }
     .grid-flex {
-         margin-bottom: 0;
+         margin-bottom: 45px;
+    }
+    .map-text-blk p {
+        font-size: 16px;
+    }
+    .map-text-blk li {
+        font-size: 14px;
+    }
+    .map-wrapper {
+        margin-bottom: -150px;
     }
     .mod-wrap .skin_buttom {
         right: -68px;
@@ -3103,6 +3116,10 @@
     }
     .mod-block h3 {
         font-size: 30px;
+    }
+    .socProject-title {
+        font-size: 30px;
+        max-width: 193px;
     }
 
 
