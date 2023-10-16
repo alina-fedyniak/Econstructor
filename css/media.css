@@ -2023,6 +2023,7 @@
     .technology-img img {
         /*max-width: 100%;*/
         max-width: 470px;
+        min-width: 470px;
     }
     .contact_title_block {
         margin-top: 60px;
@@ -2082,6 +2083,10 @@
     }
     .grid-flex {
         margin-bottom: 80px;
+    }
+    .company-main-blk .company-info {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 /* ============740-340=================== */
@@ -2544,7 +2549,7 @@
     }
     .chipboard {
         top: 63px;
-        left: 256px;
+        left: 140px;
     }
     .puls-2 {
         bottom: 282px;
@@ -2760,6 +2765,7 @@
     }
     .technology-img img {
         max-width: 345px;
+        min-width: 345px;
     }
     .materials-wrap .title {
         font-size: 25px;
@@ -3143,7 +3149,7 @@
         flex-direction: column-reverse;
     }
     .technology-img img {
-        max-height: 257px;
+        max-height: 267px;
         object-fit: cover;
     }
     .materials-wrap p {
@@ -3230,6 +3236,43 @@
     .socProject-title {
         font-size: 30px;
         max-width: 193px;
+    }
+    .company-main-blk img {
+        max-height: 267px;
+        object-fit: cover;
+    }
+    .sub-header {
+        margin-bottom: 69px;
+    }
+    .socProject-wrap {
+        margin: 130px 0 130px 0;
+    }
+    .comparison-blk div {
+        margin-top: 20px;
+    }
+    .comparison-title {
+        max-width: 320px;
+    }
+    .sub-header p {
+        margin: 45px 0 0 0;
+        font-size: 14px;
+    }
+    .technology-wrap .company-text {
+        font-size: 14px;
+    }
+    .decorWall-block p {
+        font-size: 14px;
+    }
+    .comparison-wrap p {
+        font-size: 14px;
+    }
+    .decorWall-wrap {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .puls-1 {
+        top: 109px;
+        left: 200px;
     }
 
 
