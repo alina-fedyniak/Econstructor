@@ -1954,6 +1954,12 @@
     .contact_tel {
         max-width: 320px;
     }
+    .object-block{
+        margin-top: 200px;
+    }
+    .header_btn {
+        margin-right: 40px;
+    }
 }
 /* ============740-340=================== */
 
