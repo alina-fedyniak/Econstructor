@@ -2685,6 +2685,7 @@
     .map-block img {
         max-width: 100%;
         height: 316px;
+        object-fit: cover;
     }
 }
 
