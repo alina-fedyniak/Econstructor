@@ -14,7 +14,8 @@
         max-width: 906px;
     }
     .technology-wrap {
-        max-width: 1140px;
+        /*max-width: 1140px;*//*-----------------------------------*/
+        max-width: 906px;
     }
     .title-block_main>p {
         font-size: 12px;
@@ -439,7 +440,7 @@
     }
     .comparison-title-1 {
         font-size: 35px;
-        padding: 60px 0 270px 304px;
+        padding: 60px 0 270px 0;/*-----------------------*/
     }
     .comparison-wrap p {
         font-size: 12px;
@@ -1507,7 +1508,7 @@
     }
     .comparison-title-1 {
         font-size: 50px;
-        padding: 80px 0 357px 80px;
+        padding: 80px 0 357px 0;/*----------------------*/
     }
     .comparison-wrap p {
         font-size: 18px;
@@ -3051,6 +3052,10 @@
     }
     .title-block h1 {
         font-size: 30px;
+    }
+    .swiper-slide img {
+        min-height: 350px;
+        object-fit: cover;
     }
 
 

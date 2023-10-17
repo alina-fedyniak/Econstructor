@@ -329,7 +329,7 @@ img.img-markup {
     border-top: 1px solid #FFFFFF;
     border-right: 1px solid #FFFFFF;
     width: 50%;
-    padding: 100px 88px 320px 120px;
+    padding: 100px 88px 320px 0;
 }
 
 .comparison-wrap p {
