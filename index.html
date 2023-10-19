@@ -377,7 +377,53 @@
                 </section>
                 <!-- ---------------------------------------------- -->
                 <section class="architects-block">
+                    <div class="popUp" id="my-popup-1" data-type="popup">
+                        <div class="pop_up_main">
+                            <div class="pop_close">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/about_house/slide-2.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-2.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-2.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                </div>
+                                <div class="swiper-btn _container">
+                                    <div class="swiper-btn-prev"></div>
+                                    <div class="swiper-btn-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <h3>Архітектори проєкту</h3>
+                    <div class="popUp" id="my-popup-2" data-type="popup">
+                        <div class="pop_up_main">
+                            <div class="pop_close">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-2.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-2.jpg" alt="house"></div>
+                                    <div class="swiper-slide"><img src="img/about_house/slide-3.jpg" alt="house"></div>
+                                </div>
+                                <div class="swiper-btn _container">
+                                    <div class="swiper-btn-prev"></div>
+                                    <div class="swiper-btn-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="grid-architects">
                         <div class="">
                             <h2>Панін Олексій</h2>
@@ -403,7 +449,7 @@
                             </div>
 
                             <div class="arch-btn">
-                                <a href="#">Роботи</a>
+                                <span class="popup-work" data-popup="my-popup-1">Роботи</span>
                             </div>
                         </div>
                     </div>
@@ -427,7 +473,7 @@
                                 </ul>
                             </div>
                             <div class="arch-btn">
-                                <a href="#">Роботи</a>
+                                <span class="popup-work" data-popup="my-popup-2">Роботи</span>
                             </div>
                         </div>
                     </div>
@@ -874,9 +920,48 @@
         </footer>
     </div>
 
-
-    <!-- -----scroll--color------ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
+
+
+        $('.popup-work').click(function() {
+            var popup = jQuery(this).attr('data-popup');
+            jQuery('#' + popup).addClass('active');
+        });
+
+        $('.pop_close').click(function() {
+            jQuery('.popUp').removeClass('active');
+        });
+
+
+        var swiper1 = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+            mousewheel: "true",
+            loop: "true",
+            centeredSlides: "true",
+            pagination: {
+                // el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-btn-next',
+                prevEl: '.swiper-btn-prev',
+            },
+            breakpoints: {
+                719: {
+                    slidesPerView: 1,
+                },
+                340: {
+                    slidesPerView: 1,
+                    // spaceBetween: 10,
+                },
+            },
+        });
+
+        <!-- -----scroll--color------ -->
         window.addEventListener('scroll', function () {
             var windowWidth = window.innerWidth;
             if (windowWidth >= 1700) {

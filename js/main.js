@@ -96,26 +96,11 @@ document.addEventListener("DOMContentLoaded", function() {
     closeButton.addEventListener("click", function() {
         popUp.classList.remove("active");
     });
+
+    // Закрытие вне
+    document.addEventListener("click", function (event) {
+        if (!popUp.contains(event.target) && !openButton.contains(event.target)) {
+            popUp.classList.remove("active");
+        }
+    });
 });
-
-
-var swiper = new Swiper('.swiper', {
-    slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    on: {
-        resize: function () {
-            swiper.changeDirection(getDirection());
-        },
-    },
-});
-
-function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-    return direction;
-}

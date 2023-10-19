@@ -785,7 +785,7 @@
     .architects-info>div>p:nth-child(1) {
         font-size: 18px;
     }
-    .arch-btn a {
+    .arch-btn span {
         font-size: 16px;
     }
     .grid-architects:last-child {
@@ -1209,7 +1209,7 @@
         font-size: 40px;
         margin-bottom: 60px;
     }
-    .arch-btn a {
+    .arch-btn span {
         font-size: 14px;
     }
     .grid-architects:last-child {
@@ -2580,6 +2580,16 @@
     .title-block h1 {
         font-size: 40px;
         max-width: 584px;
+    }
+    .popUp {/*-------------------------------work--*/
+        width: 100%;
+    }
+    .popUp .pop_up_main {
+        position: relative;
+        padding: 150px 60px 60px;
+    }
+    .popUp .pop_close {
+        top: 40px;
     }
 }
 
